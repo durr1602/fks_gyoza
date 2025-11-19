@@ -1,0 +1,14 @@
+.snakemake
+.ipynb_checkpoints
+.conda
+.cache
+.jupyter
+config/reads
+config/style
+results/*
+!results/df/
+results/df/*
+!results/df/all_scores*
+!results/df/avg_scores*
+profiles
+logs
