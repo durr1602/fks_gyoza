@@ -1,0 +1,318 @@
+locus	Scer_mutation	aa_seq	compound	species	true_aa_seq	best_res	best_sens	phenotype
+FKS1-HS1	D646E	FLVLSLREP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLREP']	7.0		resistant
+FKS1-HS1	D646E	FLVLSLREP	caspofungin	['Nakaseomyces glabratus']	['FLILSLREP']	7.0		resistant
+FKS1-HS1	D646E	FLVLSLREP	Echinocandin	['Nakaseomyces glabratus']	['FLILSLREP']	8.0		resistant
+FKS1-HS1	D646E	FLVLSLREP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLREP']	8.0		resistant
+FKS1-HS1	D646E	FLVLSLREP	micafungin	['Nakaseomyces glabratus']	['FLILSLREP']	7.0		resistant
+FKS1-HS1	D646G	FLVLSLRGP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRGP']	7.0	-8.0	resistant
+FKS1-HS1	D646G	FLVLSLRGP	caspofungin	['Nakaseomyces glabratus']	['FLILSLRGP']	7.0		resistant
+FKS1-HS1	D646G	FLVLSLRGP	micafungin	['Nakaseomyces glabratus']	['FLILSLRGP']	7.0	-8.0	resistant
+FKS1-HS1	D646H	FLVLSLRHP	Amphotericin B	['Nakaseomyces glabratus']	['FLILSLRHP']		-8.0	sensitive
+FKS1-HS1	D646H	FLVLSLRHP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRHP']	8.0	-8.0	sensitive
+FKS1-HS1	D646H	FLVLSLRHP	caspofungin	['Nakaseomyces glabratus']	['FLILSLRHP']	8.0		resistant
+FKS1-HS1	D646H	FLVLSLRHP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRHP']		-8.0	sensitive
+FKS1-HS1	D646H	FLVLSLRHP	micafungin	['Nakaseomyces glabratus']	['FLILSLRHP']	8.0	-8.0	sensitive
+FKS1-HS1	D646V	FLVLSLRVP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRVP']	8.0		resistant
+FKS1-HS1	D646V	FLVLSLRVP	caspofungin	['Nakaseomyces glabratus']	['FLILSLRVP']	8.0		resistant
+FKS1-HS1	D646V	FLVLSLRVP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRVP']		-8.0	sensitive
+FKS1-HS1	D646V	FLVLSLRVP	micafungin	['Nakaseomyces glabratus']	['FLILSLRVP']	8.0		resistant
+FKS1-HS1	D646Y	FLVLSLRYP	anidulafungin	['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus']	['FLTLSLRYP' 'FLILSLRYP']	7.0	-8.0	resistant
+FKS1-HS1	D646Y	FLVLSLRYP	caspofungin	['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus']	['FLTLSLRYP' 'FLILSLRYP']	7.0	-8.0	resistant
+FKS1-HS1	D646Y	FLVLSLRYP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRYP']	8.0	-8.0	sensitive
+FKS1-HS1	D646Y	FLVLSLRYP	micafungin	['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus']	['FLTLSLRYP' 'FLILSLRYP']	7.0	-8.0	resistant
+FKS1-HS1	F639C	CLVLSLRDP	anidulafungin	['Candidozyma auris' 'Pichia kudriavzevii']	['CLTLSLRDP' 'CLILSIRDP']	8.0		resistant
+FKS1-HS1	F639C	CLVLSLRDP	caspofungin	['Candida albicans' 'Candidozyma auris' 'Pichia kudriavzevii']	['CLTLSLRDP' 'CLILSIRDP']	4.0		resistant
+FKS1-HS1	F639C	CLVLSLRDP	micafungin	['Candidozyma auris' 'Pichia kudriavzevii']	['CLTLSLRDP' 'CLILSIRDP']	8.0		resistant
+FKS1-HS1	F639I	ILVLSLRDP	anidulafungin	['Candida albicans']	['ILTLSLRDP']		-8.0	sensitive
+FKS1-HS1	F639I	ILVLSLRDP	caspofungin	['Candida albicans']	['ILTLSLRDP']	8.0		resistant
+FKS1-HS1	F639I	ILVLSLRDP	micafungin	['Candida albicans']	['ILTLSLRDP']		-8.0	sensitive
+FKS1-HS1	F639L	LLVLSLRDP	anidulafungin	['Candida albicans' 'Pichia kudriavzevii']	['LLTLSLRDP' 'LLILSIRDP']	8.0		resistant
+FKS1-HS1	F639L	LLVLSLRDP	caspofungin	['Candida albicans' 'Pichia kudriavzevii']	['LLTLSLRDP' 'LLILSIRDP']	8.0		resistant
+FKS1-HS1	F639L	LLVLSLRDP	micafungin	['Candida albicans']	['LLTLSLRDP']	8.0		resistant
+FKS1-HS1	F639L	LLVLSLRDP	Scy-078	['Nakaseomyces glabratus']	['LLILSLRDP']	4.0		resistant
+FKS1-HS1	F639S	SLVLSLRDP	Amphotericin B	['Nakaseomyces glabratus']	['SLILSLRDP']		-8.0	sensitive
+FKS1-HS1	F639S	SLVLSLRDP	anidulafungin	"['Candida albicans' 'Candida tropicalis' 'Candidozyma auris' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']"	['SLTLSLRDP' 'SLILSLRDP']	4.0	-8.0	resistant
+FKS1-HS1	F639S	SLVLSLRDP	caspofungin	"['Candida albicans' 'Candida tropicalis' 'Candidozyma auris' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']"	['SLTLSLRDP' 'SLILSLRDP']	4.0	-8.0	resistant
+FKS1-HS1	F639S	SLVLSLRDP	Echinocandin	['Nakaseomyces glabratus']	['SLILSLRDP']	8.0		resistant
+FKS1-HS1	F639S	SLVLSLRDP	Fluconazole	['Nakaseomyces glabratus']	['SLILSLRDP']	8.0	-8.0	sensitive
+FKS1-HS1	F639S	SLVLSLRDP	micafungin	"['Candida albicans' 'Candida tropicalis' 'Candidozyma auris' 'Nakaseomyces glabratus']"	['SLTLSLRDP' 'SLILSLRDP']	4.0	-8.0	resistant
+FKS1-HS1	F639S	SLVLSLRDP	Voriconazole	['Nakaseomyces glabratus']	['SLILSLRDP']		-8.0	sensitive
+FKS1-HS1	F639V	VLVLSLRDP	caspofungin	['Clavispora lusitaniae' 'Saccharomyces cerevisiae']	['VLTLSLRDP' 'VLVLSLRDP']	1.0		resistant
+FKS1-HS1	F639V	VLVLSLRDP	micafungin	['Saccharomyces cerevisiae']	['VLVLSLRDP']	1.0		resistant
+FKS1-HS1	F639Y	YLVLSLRDP	anidulafungin	['Candidozyma auris' 'Nakaseomyces glabratus']	['YLTLSLRDP' 'YLILSLRDP']	8.0	-8.0	sensitive
+FKS1-HS1	F639Y	YLVLSLRDP	caspofungin	['Candidozyma auris' 'Nakaseomyces glabratus' 'Saccharomyces cerevisiae']	['YLTLSLRDP' 'YLILSLRDP' 'YLVLSLRDP']	2.0	-8.0	resistant
+FKS1-HS1	F639Y	YLVLSLRDP	Fluconazole	['Nakaseomyces glabratus']	['YLILSLRDP']		-8.0	sensitive
+FKS1-HS1	F639Y	YLVLSLRDP	micafungin	['Candidozyma auris' 'Nakaseomyces glabratus' 'Saccharomyces cerevisiae']	['YLTLSLRDP' 'YLILSLRDP' 'YLVLSLRDP']	2.0	-8.0	resistant
+FKS1-HS1	L642S	FLVSSLRDP	Arborcandin C	['Saccharomyces cerevisiae']	['FLVSSLRDP']	1.0		resistant
+FKS1-HS1	L642Y	FLVYSLRDP	caspofungin	['Aspergillus fumigatus']	['FLTLSFKDP']	1.0		resistant
+FKS1-HS1	L644I	FLVLSIRDP	anidulafungin	['Nakaseomyces glabratus']	['FLILSIRDP']	8.0	-8.0	sensitive
+FKS1-HS1	L644I	FLVLSIRDP	caspofungin	['Nakaseomyces glabratus']	['FLILSIRDP']	8.0	-8.0	sensitive
+FKS1-HS1	L644I	FLVLSIRDP	Fluconazole	['Nakaseomyces glabratus']	['FLILSIRDP']		-8.0	sensitive
+FKS1-HS1	L644I	FLVLSIRDP	micafungin	['Nakaseomyces glabratus']	['FLILSIRDP']	8.0	-8.0	sensitive
+FKS1-HS1	P647A	FLVLSLRDA	anidulafungin	['Saccharomyces cerevisiae']	['FLVLSLRDA']	2.0		resistant
+FKS1-HS1	P647A	FLVLSLRDA	caspofungin	['Clavispora lusitaniae' 'Saccharomyces cerevisiae']	['FLTLSLRDA' 'FLVLSLRDA']	1.0		resistant
+FKS1-HS1	P647A	FLVLSLRDA	micafungin	['Saccharomyces cerevisiae']	['FLVLSLRDA']	2.0		resistant
+FKS1-HS1	P647H	FLVLSLRDH	anidulafungin	['Candida albicans']	['FLTLSLRDH']	8.0		resistant
+FKS1-HS1	P647H	FLVLSLRDH	caspofungin	['Candida albicans']	['FLTLSLRDH']	8.0		resistant
+FKS1-HS1	P647H	FLVLSLRDH	micafungin	['Candida albicans']	['FLTLSLRDH']	8.0		resistant
+FKS1-HS1	P647L	FLVLSLRDL	Amphotericin B	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	anidulafungin	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	caspofungin	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	Fluconazole	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	Isavuconazole	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	micafungin	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	P647L	FLVLSLRDL	Voriconazole	['Candida albicans']	['FLTLSLRDL']		-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	Amphotericin B	['Candida albicans']	['FLTLSLGDP']		-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	anidulafungin	['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']	['FLTLSLGDP' 'FLILSLGDP']	2.0	-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	caspofungin	['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']	['FLTLSLGDP' 'FLILSLGDP']	2.0	-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	Echinocandin	['Nakaseomyces glabratus']	['FLILSLGDP']	8.0		resistant
+FKS1-HS1	R645G	FLVLSLGDP	Fluconazole	['Candida albicans' 'Nakaseomyces glabratus']	['FLTLSLGDP' 'FLILSLGDP']	8.0	-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	Isavuconazole	['Candida albicans']	['FLTLSLGDP']		-1.0	sensitive
+FKS1-HS1	R645G	FLVLSLGDP	micafungin	['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']	['FLTLSLGDP' 'FLILSLGDP']	1.0	-8.0	resistant
+FKS1-HS1	R645G	FLVLSLGDP	Voriconazole	['Candida albicans']	['FLTLSLGDP']		-1.0	sensitive
+FKS1-HS1	S643F	FLVLFLRDP	anidulafungin	"['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus' 'Pichia kudriavzevii']"	['FLTLFLRDP' 'FLILFLRDP' 'FLILFIRDP']	4.0	-8.0	resistant
+FKS1-HS1	S643F	FLVLFLRDP	caspofungin	['Candida albicans' 'Candidozyma auris' 'Pichia kudriavzevii']	['FLTLFLRDP' 'FLILFIRDP']	4.0	-8.0	resistant
+FKS1-HS1	S643F	FLVLFLRDP	micafungin	['Candida albicans' 'Candidozyma auris']	['FLTLFLRDP']	4.0	-8.0	resistant
+FKS1-HS1	S643P	FLVLPLRDP	anidulafungin	"['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis' 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus' 'Pichia kudriavzevii']"	['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP' 'FLILPIRDP']	1.0	-8.0	resistant
+FKS1-HS1	S643P	FLVLPLRDP	CD101	['Candidozyma auris']	['FLTLPLRDP']	8.0		resistant
+FKS1-HS1	S643P	FLVLPLRDP	caspofungin	"['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis' 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris' 'Clavispora lusitaniae' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus' 'Pichia kudriavzevii']"	['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP' 'FLILPIRDP']	1.0	-8.0	resistant
+FKS1-HS1	S643P	FLVLPLRDP	Echinocandin	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS1-HS1	S643P	FLVLPLRDP	Fluconazole	"['Candida albicans' 'Candida parapsilosis' 'Candidozyma auris' 'Nakaseomyces glabratus']"	['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP']	1.0	-8.0	resistant
+FKS1-HS1	S643P	FLVLPLRDP	micafungin	"['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis' 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']"	['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP']	1.0		resistant
+FKS1-HS1	S643P	FLVLPLRDP	Voriconazole	['Candidozyma auris']	['FLTLPLRDP']	8.0		resistant
+FKS1-HS1	S643Y	FLVLYLRDP	anidulafungin	['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus']	['FLTLYLRDP' 'FLILYLRDP']	4.0		resistant
+FKS1-HS1	S643Y	FLVLYLRDP	caspofungin	['Candida albicans' 'Candidozyma auris']	['FLTLYLRDP']	4.0		resistant
+FKS1-HS1	S643Y	FLVLYLRDP	micafungin	['Candida albicans' 'Candidozyma auris']	['FLTLYLRDP']	4.0		resistant
+FKS1-HS2	R1357G	DWVGRYTL	anidulafungin	['Candida albicans']	['DWIRGYTL']	8.0		resistant
+FKS1-HS2	R1357G	DWVGRYTL	caspofungin	['Candida albicans' 'Clavispora lusitaniae']	['DWIRGYTL']	1.0		resistant
+FKS1-HS2	R1357H	DWVHRYTL	5-fluorocytosine	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357H	DWVHRYTL	Amphotericin B	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357H	DWVHRYTL	anidulafungin	['Candida albicans' 'Candidozyma auris']	['DWIRHYTL']	1.0		resistant
+FKS1-HS2	R1357H	DWVHRYTL	caspofungin	['Candida albicans' 'Candidozyma auris']	['DWIRHYTL']	1.0		resistant
+FKS1-HS2	R1357H	DWVHRYTL	Fluconazole	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357H	DWVHRYTL	Itraconazole	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357H	DWVHRYTL	micafungin	['Candida albicans' 'Candidozyma auris']	['DWIRHYTL']	1.0		resistant
+FKS1-HS2	R1357H	DWVHRYTL	Posaconazole	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357H	DWVHRYTL	Voriconazole	['Candidozyma auris']	['DWIRHYTL']		-1.0	sensitive
+FKS1-HS2	R1357Y	DWVYRYTL	anidulafungin	['Candidozyma auris']	['DWIRYYTL']	8.0		resistant
+FKS1-HS2	R1357Y	DWVYRYTL	caspofungin	['Candidozyma auris']	['DWIRYYTL']	8.0		resistant
+FKS1-HS2	R1357Y	DWVYRYTL	micafungin	['Candidozyma auris']	['DWIRYYTL']	8.0		resistant
+FKS1-HS2	V1355S	DSVRRYTL	anidulafungin	['Candida tropicalis']	['DWSRRYTL']	8.0		resistant
+FKS1-HS2	V1355S	DSVRRYTL	caspofungin	['Candida tropicalis']	['DWSRRYTL']	8.0		resistant
+FKS1-HS2	W1354R	RWVRRYTL	anidulafungin	['Candida parapsilosis']	['DRIRRYTL']	8.0		resistant
+FKS1-HS2	W1354R	RWVRRYTL	caspofungin	['Candida albicans' 'Candida parapsilosis']	['DRIRRYTL']	7.0		resistant
+FKS1-HS2	W1354R	RWVRRYTL	Fluconazole	['Candida parapsilosis']	['DRIRRYTL']		-8.0	sensitive
+FKS1-HS2	W1354R	RWVRRYTL	Itraconazole	['Candida parapsilosis']	['DRIRRYTL']		-8.0	sensitive
+FKS1-HS2	W1354R	RWVRRYTL	micafungin	['Candida parapsilosis']	['DRIRRYTL']	8.0		resistant
+FKS1-HS2	W1354R	RWVRRYTL	Posaconazole	['Candida parapsilosis']	['DRIRRYTL']		-8.0	sensitive
+FKS1-HS2	W1354R	RWVRRYTL	Voriconazole	['Candida parapsilosis']	['DRIRRYTL']		-8.0	sensitive
+FKS1-HS3	D691A	LATYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LATYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	D691A	LATYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LATYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	D691A	LATYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LATYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	D691T	LTTYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LTTYLWYIIVN']	1.0		resistant
+FKS1-HS3	D691T	LTTYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LTTYLWYIIVN']	1.0		resistant
+FKS1-HS3	D691T	LTTYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LTTYLWYIIVN']	1.0		resistant
+FKS1-HS3	I697C	LDTYLWYCIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYCIVN']	1.0		resistant
+FKS1-HS3	I697C	LDTYLWYCIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYCIVN']	1.0		resistant
+FKS1-HS3	I697C	LDTYLWYCIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYCIVN']	1.0		resistant
+FKS1-HS3	I697D	LDTYLWYDIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYDIVN']		-1.0	sensitive
+FKS1-HS3	I697D	LDTYLWYDIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYDIVN']		-1.0	sensitive
+FKS1-HS3	I697D	LDTYLWYDIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYDIVN']		-1.0	sensitive
+FKS1-HS3	I697F	LDTYLWYFIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYFIVN']	1.0		resistant
+FKS1-HS3	I697F	LDTYLWYFIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYFIVN']	1.0		resistant
+FKS1-HS3	I697F	LDTYLWYFIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYFIVN']	1.0		resistant
+FKS1-HS3	I697R	LDTYLWYRIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYRIVN']	1.0		resistant
+FKS1-HS3	I697R	LDTYLWYRIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYRIVN']	1.0		resistant
+FKS1-HS3	I697R	LDTYLWYRIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYRIVN']	1.0		resistant
+FKS1-HS3	I697T	LDTYLWYTIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYTIVN']	1.0		resistant
+FKS1-HS3	I697T	LDTYLWYTIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYTIVN']	1.0		resistant
+FKS1-HS3	I697T	LDTYLWYTIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYTIVN']	1.0		resistant
+FKS1-HS3	I697V	LDTYLWYVIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYVIVN']		-1.0	sensitive
+FKS1-HS3	I697V	LDTYLWYVIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYVIVN']		-1.0	sensitive
+FKS1-HS3	I697V	LDTYLWYVIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYVIVN']		-1.0	sensitive
+FKS1-HS3	I698H	LDTYLWYIHVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIHVN']	1.0		resistant
+FKS1-HS3	I698H	LDTYLWYIHVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIHVN']	1.0		resistant
+FKS1-HS3	I698H	LDTYLWYIHVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIHVN']	1.0		resistant
+FKS1-HS3	I698N	LDTYLWYINVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYINVN']	1.0		resistant
+FKS1-HS3	I698N	LDTYLWYINVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYINVN']	1.0		resistant
+FKS1-HS3	I698N	LDTYLWYINVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYINVN']	1.0		resistant
+FKS1-HS3	I698P	LDTYLWYIPVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIPVN']	1.0		resistant
+FKS1-HS3	I698P	LDTYLWYIPVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIPVN']	1.0		resistant
+FKS1-HS3	I698P	LDTYLWYIPVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIPVN']	1.0		resistant
+FKS1-HS3	I698S	LDTYLWYISVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYISVN']		-1.0	sensitive
+FKS1-HS3	I698S	LDTYLWYISVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYISVN']		-1.0	sensitive
+FKS1-HS3	I698S	LDTYLWYISVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYISVN']		-1.0	sensitive
+FKS1-HS3	I698V	LDTYLWYIVVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIVVN']		-1.0	sensitive
+FKS1-HS3	I698V	LDTYLWYIVVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIVVN']		-1.0	sensitive
+FKS1-HS3	I698V	LDTYLWYIVVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIVVN']		-1.0	sensitive
+FKS1-HS3	L690A	ADTYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['ADTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690A	ADTYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['ADTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690A	ADTYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['ADTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690E	EDTYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['EDTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690E	EDTYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['EDTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690E	EDTYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['EDTYLWYIIVN']	1.0		resistant
+FKS1-HS3	L690F	FDTYLWYIIVN	anidulafungin	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690F	FDTYLWYIIVN	caspofungin	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690F	FDTYLWYIIVN	Fluconazole	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690F	FDTYLWYIIVN	Itraconazole	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690F	FDTYLWYIIVN	micafungin	['Candida parapsilosis']	['FDTYLWYIICN']	8.0		resistant
+FKS1-HS3	L690F	FDTYLWYIIVN	Posaconazole	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690F	FDTYLWYIIVN	Voriconazole	['Candida parapsilosis']	['FDTYLWYIICN']		-8.0	sensitive
+FKS1-HS3	L690G	GDTYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['GDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L690G	GDTYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['GDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L690G	GDTYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['GDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L690W	WDTYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['WDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L690W	WDTYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['WDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L690W	WDTYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['WDTYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	L694A	LDTYAWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYAWYIIVN']	1.0		resistant
+FKS1-HS3	L694A	LDTYAWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYAWYIIVN']	1.0		resistant
+FKS1-HS3	L694A	LDTYAWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYAWYIIVN']	1.0		resistant
+FKS1-HS3	L694T	LDTYTWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYTWYIIVN']		-1.0	sensitive
+FKS1-HS3	L694T	LDTYTWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYTWYIIVN']		-1.0	sensitive
+FKS1-HS3	L694T	LDTYTWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYTWYIIVN']		-1.0	sensitive
+FKS1-HS3	N700S	LDTYLWYIIVS	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIVS']	1.0		resistant
+FKS1-HS3	N700S	LDTYLWYIIVS	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIIVS']	1.0		resistant
+FKS1-HS3	N700S	LDTYLWYIIVS	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIVS']	1.0		resistant
+FKS1-HS3	T692A	LDAYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDAYLWYIIVN']	1.0		resistant
+FKS1-HS3	T692A	LDAYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDAYLWYIIVN']	1.0		resistant
+FKS1-HS3	T692A	LDAYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDAYLWYIIVN']	1.0		resistant
+FKS1-HS3	T692S	LDSYLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDSYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	T692S	LDSYLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDSYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	T692S	LDSYLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDSYLWYIIVN']		-1.0	sensitive
+FKS1-HS3	V699A	LDTYLWYIIAN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIAN']		-1.0	sensitive
+FKS1-HS3	V699A	LDTYLWYIIAN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIIAN']		-1.0	sensitive
+FKS1-HS3	V699A	LDTYLWYIIAN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIAN']		-1.0	sensitive
+FKS1-HS3	V699C	LDTYLWYIICN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIICN']	1.0		resistant
+FKS1-HS3	V699C	LDTYLWYIICN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIICN']	1.0		resistant
+FKS1-HS3	V699C	LDTYLWYIICN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIICN']	1.0		resistant
+FKS1-HS3	V699Q	LDTYLWYIIQN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIQN']	1.0		resistant
+FKS1-HS3	V699Q	LDTYLWYIIQN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIIQN']	1.0		resistant
+FKS1-HS3	V699Q	LDTYLWYIIQN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIQN']	1.0		resistant
+FKS1-HS3	V699S	LDTYLWYIISN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIISN']		-1.0	sensitive
+FKS1-HS3	V699S	LDTYLWYIISN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIISN']		-1.0	sensitive
+FKS1-HS3	V699S	LDTYLWYIISN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIISN']		-1.0	sensitive
+FKS1-HS3	V699T	LDTYLWYIITN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIITN']		-1.0	sensitive
+FKS1-HS3	V699T	LDTYLWYIITN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIITN']		-1.0	sensitive
+FKS1-HS3	V699T	LDTYLWYIITN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIITN']		-1.0	sensitive
+FKS1-HS3	V699W	LDTYLWYIIWN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIWN']	1.0		resistant
+FKS1-HS3	V699W	LDTYLWYIIWN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWYIIWN']	1.0		resistant
+FKS1-HS3	V699W	LDTYLWYIIWN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWYIIWN']	1.0		resistant
+FKS1-HS3	W695C	LDTYLCYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLCYIIVN']	1.0		resistant
+FKS1-HS3	W695C	LDTYLCYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLCYIIVN']	1.0		resistant
+FKS1-HS3	W695C	LDTYLCYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLCYIIVN']	1.0		resistant
+FKS1-HS3	W695F	LDTYLFYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLFYIIVN']	1.0		resistant
+FKS1-HS3	W695F	LDTYLFYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLFYIIVN']	1.0		resistant
+FKS1-HS3	W695F	LDTYLFYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLFYIIVN']	1.0		resistant
+FKS1-HS3	W695L	LDTYLLYIIVN	anidulafungin	['Candidozyma auris' 'Saccharomyces cerevisiae']	['LDTYMLYIICN' 'LDTYLLYIIVN']	1.0		resistant
+FKS1-HS3	W695L	LDTYLLYIIVN	caspofungin	['Candidozyma auris' 'Saccharomyces cerevisiae']	['LDTYMLYIICN' 'LDTYLLYIIVN']	1.0		resistant
+FKS1-HS3	W695L	LDTYLLYIIVN	micafungin	['Candidozyma auris' 'Saccharomyces cerevisiae']	['LDTYMLYIICN' 'LDTYLLYIIVN']	1.0		resistant
+FKS1-HS3	Y693C	LDTCLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTCLWYIIVN']	1.0		resistant
+FKS1-HS3	Y693C	LDTCLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTCLWYIIVN']	1.0		resistant
+FKS1-HS3	Y693C	LDTCLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTCLWYIIVN']	1.0		resistant
+FKS1-HS3	Y693F	LDTFLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTFLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y693F	LDTFLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTFLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y693F	LDTFLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTFLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y693S	LDTSLWYIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTSLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y693S	LDTSLWYIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTSLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y693S	LDTSLWYIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTSLWYIIVN']		-1.0	sensitive
+FKS1-HS3	Y696A	LDTYLWAIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWAIIVN']		-1.0	sensitive
+FKS1-HS3	Y696A	LDTYLWAIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWAIIVN']		-1.0	sensitive
+FKS1-HS3	Y696A	LDTYLWAIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWAIIVN']		-1.0	sensitive
+FKS1-HS3	Y696F	LDTYLWFIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWFIIVN']		-1.0	sensitive
+FKS1-HS3	Y696F	LDTYLWFIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWFIIVN']		-1.0	sensitive
+FKS1-HS3	Y696F	LDTYLWFIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWFIIVN']		-1.0	sensitive
+FKS1-HS3	Y696I	LDTYLWIIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWIIIVN']	1.0		resistant
+FKS1-HS3	Y696I	LDTYLWIIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWIIIVN']	1.0		resistant
+FKS1-HS3	Y696I	LDTYLWIIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWIIIVN']	1.0		resistant
+FKS1-HS3	Y696N	LDTYLWNIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWNIIVN']	1.0		resistant
+FKS1-HS3	Y696N	LDTYLWNIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWNIIVN']	1.0		resistant
+FKS1-HS3	Y696N	LDTYLWNIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWNIIVN']	1.0		resistant
+FKS1-HS3	Y696W	LDTYLWWIIVN	anidulafungin	['Saccharomyces cerevisiae']	['LDTYLWWIIVN']		-1.0	sensitive
+FKS1-HS3	Y696W	LDTYLWWIIVN	caspofungin	['Saccharomyces cerevisiae']	['LDTYLWWIIVN']		-1.0	sensitive
+FKS1-HS3	Y696W	LDTYLWWIIVN	micafungin	['Saccharomyces cerevisiae']	['LDTYLWWIIVN']		-1.0	sensitive
+FKS2-HS1	D665E	FLILSLREP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLREP']		-8.0	sensitive
+FKS2-HS1	D665E	FLILSLREP	caspofungin	['Nakaseomyces glabratus']	['FLILSLREP']	8.0		resistant
+FKS2-HS1	D665E	FLILSLREP	micafungin	['Nakaseomyces glabratus']	['FLILSLREP']		-8.0	sensitive
+FKS2-HS1	D665G	FLILSLRGP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRGP']	8.0		resistant
+FKS2-HS1	D665G	FLILSLRGP	caspofungin	['Nakaseomyces glabratus']	['FLILSLRGP']	8.0		resistant
+FKS2-HS1	D665G	FLILSLRGP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRGP']	8.0		resistant
+FKS2-HS1	D665G	FLILSLRGP	micafungin	['Nakaseomyces glabratus']	['FLILSLRGP']		-8.0	sensitive
+FKS2-HS1	D665H	FLILSLRHP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRHP']	8.0		resistant
+FKS2-HS1	D665H	FLILSLRHP	micafungin	['Nakaseomyces glabratus']	['FLILSLRHP']	8.0		resistant
+FKS2-HS1	D665V	FLILSLRVP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRVP']	8.0		resistant
+FKS2-HS1	D665V	FLILSLRVP	micafungin	['Nakaseomyces glabratus']	['FLILSLRVP']	8.0		resistant
+FKS2-HS1	D665Y	FLILSLRYP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRYP']		-8.0	sensitive
+FKS2-HS1	D665Y	FLILSLRYP	caspofungin	['Nakaseomyces glabratus']	['FLILSLRYP']	8.0	-8.0	sensitive
+FKS2-HS1	D665Y	FLILSLRYP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRYP']		-8.0	sensitive
+FKS2-HS1	D665Y	FLILSLRYP	micafungin	['Nakaseomyces glabratus']	['FLILSLRYP']		-8.0	sensitive
+FKS2-HS1	F658L	LLILSLRDP	anidulafungin	['Nakaseomyces glabratus']	['LLILSLRDP']		-8.0	sensitive
+FKS2-HS1	F658L	LLILSLRDP	caspofungin	['Nakaseomyces glabratus']	['LLILSLRDP']	8.0		resistant
+FKS2-HS1	F658L	LLILSLRDP	micafungin	['Nakaseomyces glabratus']	['LLILSLRDP']		-8.0	sensitive
+FKS2-HS1	F658L	LLILSLRDP	Scy-078	['Nakaseomyces glabratus']	['LLILSLRDP']	4.0		resistant
+FKS2-HS1	F658S	SLILSLRDP	anidulafungin	['Nakaseomyces glabratus']	['SLILSLRDP']	7.0	-8.0	resistant
+FKS2-HS1	F658S	SLILSLRDP	caspofungin	['Nakaseomyces glabratus']	['SLILSLRDP']	7.0	-8.0	resistant
+FKS2-HS1	F658S	SLILSLRDP	Fluconazole	['Nakaseomyces glabratus']	['SLILSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	F658S	SLILSLRDP	micafungin	['Nakaseomyces glabratus']	['SLILSLRDP']	7.0	-8.0	resistant
+FKS2-HS1	F658S	SLILSLRDP	Scy-078	['Nakaseomyces glabratus']	['SLILSLRDP']	4.0		resistant
+FKS2-HS1	F658V	VLILSLRDP	anidulafungin	['Nakaseomyces glabratus']	['VLILSLRDP']	7.0	-8.0	resistant
+FKS2-HS1	F658V	VLILSLRDP	caspofungin	['Nakaseomyces glabratus']	['VLILSLRDP']	7.0		resistant
+FKS2-HS1	F658V	VLILSLRDP	Echinocandin	['Nakaseomyces glabratus']	['VLILSLRDP']	8.0		resistant
+FKS2-HS1	F658V	VLILSLRDP	Fluconazole	['Nakaseomyces glabratus']	['VLILSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	F658V	VLILSLRDP	micafungin	['Nakaseomyces glabratus']	['VLILSLRDP']	7.0	-8.0	resistant
+FKS2-HS1	F658Y	YLILSLRDP	anidulafungin	['Nakaseomyces glabratus']	['YLILSLRDP']	8.0		resistant
+FKS2-HS1	F658Y	YLILSLRDP	caspofungin	['Nakaseomyces glabratus']	['YLILSLRDP']	8.0		resistant
+FKS2-HS1	F658Y	YLILSLRDP	Echinocandin	['Nakaseomyces glabratus']	['YLILSLRDP']	8.0		resistant
+FKS2-HS1	F658Y	YLILSLRDP	Fluconazole	['Nakaseomyces glabratus']	['YLILSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	F658Y	YLILSLRDP	micafungin	['Nakaseomyces glabratus']	['YLILSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	I660T	FLTLSLRDP	Amphotericin B	['Nakaseomyces glabratus']	['FLTLSLRDP']		-8.0	sensitive
+FKS2-HS1	I660T	FLTLSLRDP	anidulafungin	['Nakaseomyces glabratus']	['FLTLSLRDP']		-8.0	sensitive
+FKS2-HS1	I660T	FLTLSLRDP	caspofungin	['Nakaseomyces glabratus']	['FLTLSLRDP']		-8.0	sensitive
+FKS2-HS1	I660T	FLTLSLRDP	Fluconazole	['Nakaseomyces glabratus']	['FLTLSLRDP']		-8.0	sensitive
+FKS2-HS1	I660T	FLTLSLRDP	micafungin	['Nakaseomyces glabratus']	['FLTLSLRDP']		-8.0	sensitive
+FKS2-HS1	L661W	FLIWSLRDP	anidulafungin	['Nakaseomyces glabratus']	['FLIWSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	L661W	FLIWSLRDP	caspofungin	['Nakaseomyces glabratus']	['FLIWSLRDP']	8.0		resistant
+FKS2-HS1	L661W	FLIWSLRDP	Fluconazole	['Nakaseomyces glabratus']	['FLIWSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	L661W	FLIWSLRDP	micafungin	['Nakaseomyces glabratus']	['FLIWSLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	L663R	FLILSRRDP	anidulafungin	['Nakaseomyces glabratus']	['FLILSRRDP']	8.0		resistant
+FKS2-HS1	L663R	FLILSRRDP	caspofungin	['Nakaseomyces glabratus']	['FLILSRRDP']	8.0	-8.0	sensitive
+FKS2-HS1	L663R	FLILSRRDP	Fluconazole	['Nakaseomyces glabratus']	['FLILSRRDP']	8.0		resistant
+FKS2-HS1	L663R	FLILSRRDP	micafungin	['Nakaseomyces glabratus']	['FLILSRRDP']	8.0		resistant
+FKS2-HS1	P666F	FLILSLRDF	caspofungin	['Nakaseomyces glabratus']	['FLILSLRDF']	8.0		resistant
+FKS2-HS1	P666F	FLILSLRDF	micafungin	['Nakaseomyces glabratus']	['FLILSLRDF']	8.0		resistant
+FKS2-HS1	P666H	FLILSLRDH	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRDH']	4.0		resistant
+FKS2-HS1	P666H	FLILSLRDH	caspofungin	['Nakaseomyces glabratus']	['FLILSLRDH']	8.0		resistant
+FKS2-HS1	P666H	FLILSLRDH	micafungin	['Nakaseomyces glabratus']	['FLILSLRDH']	8.0		resistant
+FKS2-HS1	P666T	FLILSLRDT	anidulafungin	['Nakaseomyces glabratus']	['FLILSLRDT']	8.0	-8.0	sensitive
+FKS2-HS1	P666T	FLILSLRDT	caspofungin	['Nakaseomyces glabratus']	['FLILSLRDT']	8.0		resistant
+FKS2-HS1	P666T	FLILSLRDT	Echinocandin	['Nakaseomyces glabratus']	['FLILSLRDT']	8.0		resistant
+FKS2-HS1	P666T	FLILSLRDT	Fluconazole	['Nakaseomyces glabratus']	['FLILSLRDT']		-8.0	sensitive
+FKS2-HS1	P666T	FLILSLRDT	micafungin	['Nakaseomyces glabratus']	['FLILSLRDT']		-8.0	sensitive
+FKS2-HS1	R664G	FLILSLGDP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLGDP']		-8.0	sensitive
+FKS2-HS1	R664G	FLILSLGDP	caspofungin	['Nakaseomyces glabratus']	['FLILSLGDP']	8.0	-8.0	sensitive
+FKS2-HS1	R664G	FLILSLGDP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLGDP']	8.0		resistant
+FKS2-HS1	R664G	FLILSLGDP	micafungin	['Nakaseomyces glabratus']	['FLILSLGDP']	8.0	-8.0	sensitive
+FKS2-HS1	R664S	FLILSLSDP	anidulafungin	['Nakaseomyces glabratus']	['FLILSLSDP']		-8.0	sensitive
+FKS2-HS1	R664S	FLILSLSDP	caspofungin	['Nakaseomyces glabratus']	['FLILSLSDP']	8.0		resistant
+FKS2-HS1	R664S	FLILSLSDP	Fluconazole	['Nakaseomyces glabratus']	['FLILSLSDP']	8.0		resistant
+FKS2-HS1	R664S	FLILSLSDP	micafungin	['Nakaseomyces glabratus']	['FLILSLSDP']	8.0	-8.0	sensitive
+FKS2-HS1	S662F	FLILFLRDP	anidulafungin	['Nakaseomyces glabratus']	['FLILFLRDP']	4.0		resistant
+FKS2-HS1	S662F	FLILFLRDP	caspofungin	['Nakaseomyces glabratus']	['FLILFLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	S662F	FLILFLRDP	Echinocandin	['Nakaseomyces glabratus']	['FLILFLRDP']	8.0		resistant
+FKS2-HS1	S662F	FLILFLRDP	Fluconazole	['Nakaseomyces glabratus']	['FLILFLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	S662F	FLILFLRDP	micafungin	['Nakaseomyces glabratus']	['FLILFLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	S662P	FLILPLRDP	anidulafungin	['Nakaseomyces glabratus']	['FLILPLRDP']	4.0	-8.0	resistant
+FKS2-HS1	S662P	FLILPLRDP	caspofungin	['Nakaseomyces glabratus']	['FLILPLRDP']	1.0	-8.0	resistant
+FKS2-HS1	S662P	FLILPLRDP	Echinocandin	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS2-HS1	S662P	FLILPLRDP	Fluconazole	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0	-8.0	sensitive
+FKS2-HS1	S662P	FLILPLRDP	Isavuconazole	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS2-HS1	S662P	FLILPLRDP	Itraconazole	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS2-HS1	S662P	FLILPLRDP	micafungin	['Nakaseomyces glabratus']	['FLILPLRDP']	4.0	-8.0	resistant
+FKS2-HS1	S662P	FLILPLRDP	Posaconazole	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS2-HS1	S662P	FLILPLRDP	Voriconazole	['Nakaseomyces glabratus']	['FLILPLRDP']	8.0		resistant
+FKS2-HS1	S662Y	FLILYLRDP	anidulafungin	['Nakaseomyces glabratus']	['FLILYLRDP']	4.0		resistant
+FKS2-HS1	S662Y	FLILYLRDP	caspofungin	['Nakaseomyces glabratus']	['FLILYLRDP']	8.0		resistant
+FKS2-HS1	S662Y	FLILYLRDP	Fluconazole	['Nakaseomyces glabratus']	['FLILYLRDP']		-8.0	sensitive
+FKS2-HS1	S662Y	FLILYLRDP	micafungin	['Nakaseomyces glabratus']	['FLILYLRDP']	4.0		resistant
+FKS2-HS3	W714L	LDTYLLYIVVN	anidulafungin	['Nakaseomyces glabratus']	['LDTYLLYIVVN']	4.0		resistant
+FKS2-HS3	W714L	LDTYLLYIVVN	micafungin	['Nakaseomyces glabratus']	['LDTYLLYIVVN']	4.0		resistant
+FKS2-HS3	W714L	LDTYLLYIVVN	Scy-078	['Nakaseomyces glabratus']	['LDTYLLYIVVN']	4.0		resistant

@@ -1,0 +1,11 @@
+Scer_mutation,anidulafungin,caspofungin,micafungin,best_res_across,best_sens_across,reported in Scer
+F639S,resistant,resistant,resistant,4.0,-8.0,False
+F639V,,resistant,resistant,1.0,,True
+F639Y,,resistant,resistant,2.0,-8.0,True
+L642Y,,resistant,,1.0,,False
+P647A,resistant,resistant,resistant,1.0,,True
+P647L,disagreement,disagreement,disagreement,,-1.0,False
+R645G,disagreement,disagreement,resistant,1.0,-1.0,False
+S643F,resistant,resistant,resistant,4.0,-8.0,False
+S643P,resistant,resistant,resistant,1.0,-8.0,False
+S643Y,resistant,resistant,resistant,4.0,,False

@@ -20,3 +20,14 @@ source fks_gyoza/bin/activate
 uv pip install -r post/requirements.txt
 ```
 
+## Analysis
+
+### Classification of scores to get labels
+A Gaussian Mixture Model (GMM) was used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyoza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
+
+Thresholds were set to resolve overlaps between the different gaussians predicted.
+
+Classification was collapsed (deleterious/non-deleterious in the control condition, sensitive/resistant upon selection).
+
+### Classification of scores to get labels
+DMS data were [compared to growth data](./post/notebooks/20240129_validations_test3.ipynb) from reconstructed mutants to perform a linear regression and infer a score for a few mutants missing from the DMS dataset.
