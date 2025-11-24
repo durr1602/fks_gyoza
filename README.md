@@ -2,13 +2,15 @@
 
 ## gyōza
 
-The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza)
+The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (`snakemake==8.24.0`)
 
-This was done by `snakeploy`ing gyōza with tag [`89c40d6`](https://github.com/durr1602/gyoza/commit/89c40d6e0c46e47cd2b936f219e1819f372869ac). Config is in `config/`.
+Single mutants of Hotspots 1 and 2 observed in the NovaSeq run were analyzed by `snakeploy`ing gyōza with tag [`89c40d6`](https://github.com/durr1602/gyoza/commit/89c40d6e0c46e47cd2b936f219e1819f372869ac). Config is [here](./config/config.yaml).
 
-Read count threshold at T0 was set at `10`, which means only variants (amino acid sequences) which had more than `10` reads in **all** T0 replicates were used to calculate an average selection coefficient across replicates.
+For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza with tag [b67f2cc](https://github.com/durr1602/gyoza/commit/b67f2cc2e7aa0f0d6847c654f42949da8180977f).
 
-`snakemake==8.24.0` was used for the analysis.
+Single mutants of Hotspot 3 observed in a separate Aviti run (single-end) were analyzed with the same version of gyōza, with [this config](./config/config_HS3.yaml).
+
+For all gyōza analyses, read count threshold at T0 was set at `10`, which means only variants (amino acid sequences) which had more than `10` reads in **all** T0 replicates were used to calculate an average selection coefficient across replicates.
 
 ## Requirements
 
@@ -23,7 +25,7 @@ uv pip install -r post/requirements.txt
 ## Analysis
 
 ### Classification of scores to get labels
-A Gaussian Mixture Model (GMM) was used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyoza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
+A Gaussian Mixture Model (GMM) was [trained](./post/notebooks/train_GMM.ipynb) and used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyōza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
 
 Thresholds were set to resolve overlaps between the different gaussians predicted.
 
