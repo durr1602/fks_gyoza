@@ -10,7 +10,7 @@ project:
     # Specify path to folder containing project-specific files
     folder: '/home/rodur28/project_files_HS3/'
     # Specify what makes each sample unique (other than Timepoint and Replicate)
-    sample_attributes: ['Drug']
+    sample_attributes: ['strain','paralog','hotspot','Mutated_seq','compound']
 
 reads:
     # Specify if reads are paired-end (True) or single-end (False)
