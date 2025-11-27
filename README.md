@@ -24,6 +24,9 @@ uv pip install -r post/requirements.txt
 
 ## Analysis
 
+### How to reproduce analyses
+Simply run [this notebook](./post/notebooks/driver.ipynb)
+
 ### Classification of scores to get labels
 A Gaussian Mixture Model (GMM) was [trained](./post/notebooks/train_GMM.ipynb) and used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyōza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
 
@@ -33,3 +36,6 @@ Classification was collapsed (deleterious/non-deleterious in the control conditi
 
 ### Classification of scores to get labels
 DMS data were [compared to growth data](./post/notebooks/20240129_validations_test3.ipynb) from reconstructed mutants to perform a linear regression and infer a score for a few single mutants in FKS1-HS1 missing from the DMS dataset.
+
+### Plot heatmaps
+[This notebook](./post/notebooks/heatmaps.ipynb) was used to plot heatmaps of fitness scores.

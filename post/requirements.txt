@@ -7,3 +7,5 @@ seaborn==0.13.2
 matplotlib==3.10.7
 upsetplot @ git+https://github.com/RicYaben/UpSetPlot.git@bceb91d # 0.10.dev1
 ipykernel==7.1.0
+papermill==2.6.0
+ipywidgets==8.1.8
