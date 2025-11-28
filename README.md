@@ -39,3 +39,6 @@ DMS data were [compared to growth data](./post/notebooks/20240129_validations_te
 
 ### Plot heatmaps
 [This notebook](./post/notebooks/heatmaps.ipynb) was used to plot heatmaps of fitness scores.
+
+### Generate defattr files for ChimeraX
+[This notebook](./post/notebooks/defattr.ipynb) was used to generate the files used in ChimeraX to plot onto the protein structures the proportion of resistant mutants per position for each hotspot.
