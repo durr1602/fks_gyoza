@@ -1,5 +1,5 @@
 #
-attribute: res
+attribute: res_none
 match mode: 1-to-1
 recipient: residues
 	/F:639	0.0

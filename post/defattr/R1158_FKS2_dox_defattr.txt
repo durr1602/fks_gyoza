@@ -1,5 +1,5 @@
 #
-attribute: res
+attribute: res_dox
 match mode: 1-to-1
 recipient: residues
 	#2 /A:659	0.0

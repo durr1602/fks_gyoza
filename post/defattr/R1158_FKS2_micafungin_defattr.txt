@@ -1,5 +1,5 @@
 #
-attribute: res
+attribute: res_micafungin
 match mode: 1-to-1
 recipient: residues
 	#2 /A:659	0.45
