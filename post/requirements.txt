@@ -3,6 +3,7 @@ openpyxl==3.1.5
 numpy==2.3.5
 scipy==1.16.3
 scikit-learn==1.7.2
+shap==0.50.0
 seaborn==0.13.2
 matplotlib==3.10.7
 upsetplot @ git+https://github.com/RicYaben/UpSetPlot.git@bceb91d # 0.10.dev1
