@@ -8,32 +8,15 @@ import sys
 import pandas as pd
 from custom_functions import refine_class
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-i",
-        type=str,
-        required=True,
-        help="Path to input data basename"
+        "-i", type=str, required=True, help="Path to input data basename"
     )
-    parser.add_argument(
-        "-o",
-        type=str,
-        required=True,
-        help="Outpath basename"
-    )
-    parser.add_argument(
-        "--strain",
-        type=str,
-        required=True,
-        help="Strain identifier"
-    )
-    parser.add_argument(
-        "--locus",
-        type=str,
-        required=True,
-        help="Locus identifier"
-    )
+    parser.add_argument("-o", type=str, required=True, help="Outpath basename")
+    parser.add_argument("--strain", type=str, required=True, help="Strain identifier")
+    parser.add_argument("--locus", type=str, required=True, help="Locus identifier")
     args = parser.parse_args()
 
     # Input
@@ -72,13 +55,14 @@ def main():
 
     return
 
+
 if __name__ == "__main__":
     # When running a script with %run, it might sometimes try to parse Jupyter's
     # internal arguments. The next two lines handle this more gracefully.
-    if '__file__' not in globals() and 'ipykernel' in sys.modules:
+    if "__file__" not in globals() and "ipykernel" in sys.modules:
         # We are likely running in Jupyter via %run
         # The sys.argv will contain the arguments after the script name
         # We just rely on argparse to handle the rest.
         pass
-    
+
     main()
