@@ -10,7 +10,10 @@ project:
     # Specify path to folder containing project-specific files
     folder: '/home/rodur28/project_files_HS3/'
     # Specify what makes each sample unique (other than Timepoint and Replicate)
-    sample_attributes: ['strain','paralog','hotspot','Mutated_seq','compound']
+    sample_attributes: ['strain','paralog','hotspot','Mutated_seq']
+    # Specify what makes each screening condition unique
+    # (other than Timepoint)
+    screening_attributes: ['compound']    
 
 reads:
     # Specify if reads are paired-end (True) or single-end (False)
@@ -31,6 +34,10 @@ random:
     # For 'random' designs only
     # Acceptable number of amino acid changes relative to wild-type
     Nham_aa_max: 1
+
+process_all_samples: False
+    # Set to True to override sample selection specified in the Analyze/Report columns of the layout
+    # This will include all samples from the layout for both processing and reporting
 
 perform_qc: True
     # Set to True if you want to run FASTQC on all raw FASTQ files and generate a MultiQC report

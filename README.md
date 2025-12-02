@@ -2,13 +2,13 @@
 
 ## gyōza
 
-The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (`snakemake==8.24.0`)
+The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza). At this time, all analayses were run with [a development version](https://github.com/durr1602/gyoza/commit/50af8cab0d3807cca883cbc4e1e69e761faa7478) (`snakemake==9.14.0`)
 
-Single mutants of Hotspots 1 and 2 observed in the NovaSeq run were analyzed by `snakeploy`ing gyōza with tag [`89c40d6`](https://github.com/durr1602/gyoza/commit/89c40d6e0c46e47cd2b936f219e1819f372869ac). Config is [here](./config/config.yaml).
+Single mutants of Hotspots 1 and 2 observed in the NovaSeq run were analyzed using [this config](./config/config.yaml).
 
-For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza with tag [b67f2cc](https://github.com/durr1602/gyoza/commit/b67f2cc2e7aa0f0d6847c654f42949da8180977f). This mode required that expected sequences be provided in a specific format, which was obtained with [a quick script](./pre/scripts/generate_gyoza_input_orthologs.py). After the run, the dataframe of scores [was slightly altered](./post/scripts/prepare_ortho.py) to be able to classify variants directly from the same model trained on single mutants.
+For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza. This mode required that expected sequences be provided in a specific format. To generate the proper input (silent mutants from the first dataset + orthologous hotspot 1 sequences), we ran [this custom script](./pre/scripts/generate_gyoza_input_orthologs.py).
 
-Single mutants of Hotspot 3 observed in a separate Aviti run (single-end) were analyzed with the same version of gyōza, with [this config](./config/config_HS3.yaml).
+Single mutants of Hotspot 3 observed in a separate Aviti run (single-end) were analyzed with [this config](./config/config_HS3.yaml).
 
 For all gyōza analyses, read count threshold at T0 was set at `10`, which means only variants (amino acid sequences) which had more than `10` reads in **all** T0 replicates were used to calculate an average selection coefficient across replicates.
 
