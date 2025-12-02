@@ -12,4 +12,5 @@ results/df/*
 !results/df/avg_scores*
 profiles
 logs
+post/graphs
 post/scripts/__pycache__
