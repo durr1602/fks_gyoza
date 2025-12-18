@@ -2,7 +2,7 @@
 
 ## gyōza
 
-The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza). At this time, all analayses were run with [a development version](https://github.com/durr1602/gyoza/commit/50af8cab0d3807cca883cbc4e1e69e761faa7478) (`snakemake==9.14.0`)
+The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (at this time `--tag 37652ad`)
 
 Single mutants of Hotspots 1 and 2 observed in the NovaSeq run were analyzed using [this config](./config/config.yaml).
 

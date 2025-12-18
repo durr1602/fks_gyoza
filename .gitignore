@@ -10,6 +10,9 @@ results/*
 results/df/*
 !results/df/all_scores*
 !results/df/avg_scores*
+!results/df/distribution_freq/
+results/df/distribution_freq/*
+!results/df/distribution_freq/freq_BY4741__FKS1__*
 profiles
 logs
 post/graphs

@@ -10,7 +10,7 @@ configfile: "config/config.yaml"
 # declare https://github.com/durr1602/gyoza as a module
 module gyoza:
     snakefile: 
-        github("durr1602/gyoza", path="workflow/Snakefile", tag="50af8cab0d3807cca883cbc4e1e69e761faa7478")
+        github("durr1602/gyoza", path="workflow/Snakefile", tag="v1.2.0")
     config:
         config
 
