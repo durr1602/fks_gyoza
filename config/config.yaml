@@ -19,7 +19,7 @@ reads:
     # Specify if reads are paired-end (True) or single-end (False)
     paired: False
     # Specify path to directory containing sequencing data
-    path: '/home/rodur28/novaseq_run2/reads/sra_reads/'
+    path: '/home/rodur28/Fks_DMS_all_reads/'
     # Specify targeted read count per sample in scientific notation
     exp_rc_per_sample: 7e4
     # Specify read count threshold (integer) to label variants with a confidence score

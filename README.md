@@ -4,11 +4,9 @@
 
 The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (at this time `--tag 37652ad`)
 
-Single mutants of Hotspots 1 and 2 observed in the NovaSeq run were analyzed using [this config](./config/config.yaml).
+Single mutants of Hotspots 1, 2 and 3 were analyzed using [this config](./config/config.yaml).
 
-For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza. This mode required that expected sequences be provided in a specific format. To generate the proper input (silent mutants from the first dataset + orthologous hotspot 1 sequences), we ran [this custom script](./pre/scripts/generate_gyoza_input_orthologs.py).
-
-Single mutants of Hotspot 3 observed in a separate Aviti run (single-end) were analyzed with [this config](./config/config_HS3.yaml).
+For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza. This mode required that expected sequences be provided in a specific format. To generate the proper input (silent mutants from the first dataset + orthologous hotspot sequences), we ran [this custom script](./pre/scripts/generate_gyoza_input_orthologs.py).
 
 For all gyōza analyses, read count threshold at T0 was set at `10`, which means only variants (amino acid sequences) which had more than `10` reads in **all** T0 replicates were used to calculate an average selection coefficient across replicates.
 
