@@ -2,13 +2,15 @@
 
 ## gyōza
 
-The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (at this time `--tag 37652ad`)
+The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (at this time `--tag 5fcdf3b`)
 
 Single mutants of Hotspots 1, 2 and 3 were analyzed using [this config](./config/config.yaml).
 
 For simplicity, Fks homologous hotspots were analyzed **separately** using the `provided` mode of gyōza. This mode required that expected sequences be provided in a specific format. To generate the proper input (silent mutants from the first dataset + orthologous hotspot sequences), we ran [this custom script](./pre/scripts/generate_gyoza_input_orthologs.py).
 
 For all gyōza analyses, read count threshold at T0 was set at `10`, which means only variants (amino acid sequences) which had more than `10` reads in **all** T0 replicates were used to calculate an average selection coefficient across replicates.
+
+Similarly, sequencing data from preliminary MiSeq/Aviti runs were analyzed with gyōza by disabling the `process_frequencies` config key. This allowed estimating library diversity, as well as estimating bottlenecks due to deleterious effects during the overnight culture.
 
 ## Requirements
 
@@ -24,6 +26,9 @@ uv pip install -r post/requirements.txt
 
 ### How to reproduce analyses
 Simply run [this notebook](./post/notebooks/driver.ipynb)
+
+### Estimation of library bottlenecks
+Allele frequencies for libraries of single mutants and homologous hotspot sequences were compared before/after overnight culture. (before = MiSeq/Aviti preliminary sequencing runs to estimate diversity in libraries, after = T0 of main sequencing runs). The corresponding dataframes (obtained from different gyōza runs) were manually copied to two single locations (`pre/freq_libraries` and `results/df/distribution_freq`) before being compared using [this notebook](./post/notebooks/bottlenecks.ipynb).
 
 ### Classification of scores to get labels
 A Gaussian Mixture Model (GMM) was [trained](./post/notebooks/train_GMM.ipynb) and used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyōza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
