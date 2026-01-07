@@ -1,4 +1,4 @@
-strain,paralog,hotspot,Mutated_seq,compound,Nham_aa,aa_seq,aa_pos,alt_aa,wt_aa,s,lower_err_T2,upper_err_T2,refined_class,sensres
+strain,paralog,hotspot,locus,compound,Nham_aa,aa_seq,aa_pos,alt_aa,wt_aa,s,lower_err_T2,upper_err_T2,refined_class,sensres
 BY4741,FKS1,HS1,FKS1-HS1,anidulafungin,0,FLVLSLRDP,not-applicable,not-applicable,not-applicable,-0.0717756571089043,0.0015465505953216,0.0015465505953216,WT-like,sensitive
 BY4741,FKS1,HS1,FKS1-HS1,anidulafungin,1,FLILSLRDP,641,I,V,-0.1594886299171096,0.0643571640429116,0.0643571640429116,WT-like,sensitive
 BY4741,FKS1,HS1,FKS1-HS1,anidulafungin,1,FLTLSLRDP,641,T,V,-0.13961771588735,0.1302906266117231,0.1302906266117231,WT-like,sensitive
