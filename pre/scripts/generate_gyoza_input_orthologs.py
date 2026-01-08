@@ -254,7 +254,7 @@ def generate_expected_mutants(locus):
     wt = wt_df.loc[wt_df.Mutated_seq == locus, "WT_seq"].values[0].upper()
 
     # Import orthologous sequences
-    df = pd.read_csv(f"../{locus}_ortholog_nt.csv")
+    df = pd.read_csv(f"../ortholog_data/{locus}_ortholog_nt.csv")
     df["nt_seq"] = df["nt_seq"].astype(str).str.upper()
     df["Mutated_seq"] = locus
     df["WT_seq"] = wt
@@ -274,6 +274,6 @@ def generate_expected_mutants(locus):
 # Export in proper format for gyoza
 for l in ["FKS1-HS1", "FKS1-HS2", "FKS1-HS3", "FKS2-HS1", "FKS2-HS2"]:
     df = generate_expected_mutants(l)
-    df.to_csv(f"../{l}.csv.gz", index=False)
+    df.to_csv(f"../ortholog_data/{l}.csv.gz", index=False)
 
 # The files are then moved in the appropriate folder to start gyoza with the 'provided' mode
