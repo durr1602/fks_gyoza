@@ -48,6 +48,9 @@ Simply run [this notebook](./post/notebooks/driver.ipynb)
 ### Estimation of library bottlenecks
 Allele frequencies for libraries of single mutants and homologous hotspot sequences were compared before/after overnight culture. (before = MiSeq/Aviti preliminary sequencing runs to estimate diversity in libraries, after = T0 of main sequencing runs). The corresponding dataframes (obtained from different gyōza runs) were manually copied to two single locations (`pre/freq_libraries` and `results/df/distribution_freq`) before being compared using [this notebook](./post/notebooks/bottlenecks.ipynb).
 
+### Estimation of replicability
+Spearman correlation coefficients were calculated for each pairwise comparison of replicates using [this script](./post/scripts/plot_replicates.py)
+
 ### Classification of scores to get labels
 A Gaussian Mixture Model (GMM) was [trained](./post/notebooks/train_GMM.ipynb) and used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyōza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
 
