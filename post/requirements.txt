@@ -5,7 +5,7 @@ scipy==1.16.3
 scikit-learn==1.7.2
 seaborn==0.13.2
 matplotlib==3.10.7
-upsetplot @ git+https://github.com/durr1602/UpSetPlot.git@08f0648
+upsetplot @ git+https://github.com/durr1602/UpSetPlot.git@7fa2661
 ipykernel==7.1.0
 papermill==2.6.0
 ipywidgets==8.1.8
