@@ -6,6 +6,7 @@ Major update 13-01-2026
 @author: aliciapageau
 """
 
+# %% Load packages
 import pandas as pd
 import numpy as np
 import os
@@ -14,9 +15,10 @@ from Bio import AlignIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
-wkdir = '/home/alicia-pageau/Documents/antifungal_project/FKS1/fungAMR_comparaison/'
+# %% Paths and parameters
+wkdir = '../fungamr/'
 os.chdir(wkdir)
-date = '140126' #DDMMYY
+date = '160126' #DDMMYY
 
 # %% Functions
 def mutate_sequence(sequence, position, alt_aa, mut_type):
