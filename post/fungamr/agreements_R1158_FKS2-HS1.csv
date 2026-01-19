@@ -1,1 +1,5 @@
-Scer_mutation,best_res_across,best_sens_across,reported in Scer
+Scer_mutation,anidulafungin,caspofungin,micafungin,best_res_across,best_sens_across,reported in Scer
+P666H,resistant,,,4.0,,False
+S662F,resistant,,,4.0,,False
+S662P,resistant,resistant,resistant,1.0,-8.0,False
+S662Y,resistant,,resistant,4.0,,False

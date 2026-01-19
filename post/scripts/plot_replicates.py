@@ -88,39 +88,41 @@ def plot_replicate_scatter(df, spearman_df, outpath):
     c_order = sorted(df["compound"].unique())
 
     g = sns.FacetGrid(
-        df, 
-        row="locus", row_order=l_order,
-        col="compound", col_order=c_order,
-        hue="pair", 
+        df,
+        row="locus",
+        row_order=l_order,
+        col="compound",
+        col_order=c_order,
+        hue="pair",
         palette=color_map,
-        margin_titles=True, 
-        height=1.8
+        margin_titles=True,
+        height=1.8,
     )
-    
+
     # Map scatter
     g.map_dataframe(sns.scatterplot, x="x", y="y", s=8, alpha=0.2, edgecolor="none")
-    
+
     # Annotation loop
     for (row_val, col_val), ax in g.axes_dict.items():
         sub_stats = spearman_df[
-            (spearman_df["locus"] == row_val) & 
-            (spearman_df["compound"] == col_val)
+            (spearman_df["locus"] == row_val) & (spearman_df["compound"] == col_val)
         ]
-        
+
         for i, (_, row) in enumerate(sub_stats.iterrows()):
-            pair_name = row['pair']
+            pair_name = row["pair"]
             ax.text(
-                0.05, 0.92 - (i * 0.08), 
+                0.05,
+                0.92 - (i * 0.08),
                 f"{pair_name}: ρ={row['rho']:.2f}",
                 transform=ax.transAxes,
                 fontsize=8,
-                color=color_map[pair_name], # Matches the scatter color
-                fontweight='bold'
+                color=color_map[pair_name],  # Matches the scatter color
+                fontweight="bold",
             )
 
     g.set_axis_labels("s (Rep. X)", "s (Rep. Y)")
     g.set_titles(row_template="{row_name}", col_template="{col_name}")
-    
+
     plt.tight_layout()
     plt.savefig(outpath, dpi=300)
     plt.savefig(outpath.replace(".svg", ".png"), dpi=300)
@@ -154,7 +156,9 @@ def main(df_files, outpath):
     repwide["compound"] = split_data.str[-1].str.title()
 
     # Restrict to non-control conditions
-    repwide = repwide[repwide["compound"].isin(["Anidulafungin", "Caspofungin", "Micafungin"])]
+    repwide = repwide[
+        repwide["compound"].isin(["Anidulafungin", "Caspofungin", "Micafungin"])
+    ]
 
     # Get combinations of replicates
     replicates = ["1", "2", "3"]
@@ -171,13 +175,15 @@ def main(df_files, outpath):
         for (locus, compound), group in temp.groupby(["locus", "compound"]):
             if len(group) > 1:
                 rho, pval = stats.spearmanr(group[r_x], group[r_y])
-                stats_list.append({
-                    "locus": locus,
-                    "compound": compound,
-                    "pair": pair_label,
-                    "rho": rho,
-                    "pval": pval
-                })
+                stats_list.append(
+                    {
+                        "locus": locus,
+                        "compound": compound,
+                        "pair": pair_label,
+                        "rho": rho,
+                        "pval": pval,
+                    }
+                )
         temp = temp.rename(columns={r_x: "x", r_y: "y"})
         temp["pair"] = pair_label
         plot_data_list.append(temp)

@@ -32,10 +32,14 @@ def main():
     classified_outpath = f'../classified/{"_".join([args.strain,args.locus])}/{args.o}'
 
     # Import data
-    fulldf = pd.read_csv(data_path).rename(columns={"fitness_T2": "s", "Mutated_seq": "locus"})
+    fulldf = pd.read_csv(data_path).rename(
+        columns={"fitness_T2": "s", "Mutated_seq": "locus"}
+    )
     if ("strain" in fulldf.columns) & ("locus" in fulldf.columns):
-        df = fulldf[(fulldf.strain == args.strain) & (fulldf.locus == args.locus)].copy()
-    else: # assume single strain, single locus and file is located in strain-locus-specific folder
+        df = fulldf[
+            (fulldf.strain == args.strain) & (fulldf.locus == args.locus)
+        ].copy()
+    else:  # assume single strain, single locus and file is located in strain-locus-specific folder
         df = fulldf.copy()
     stddf = pd.read_csv(thresholds)
 

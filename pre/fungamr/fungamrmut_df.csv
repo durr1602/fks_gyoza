@@ -1,0 +1,312 @@
+Hotspot,Scer_mutation,drug,pubmed_ids,species,mutations,aa,best_res,best_sens,phenotype
+HS1,D646E,Anidulafungin,[18378714 19546367 23487382 24829248],['Nakaseomyces glabratus'],['D632E'],['FLILSLREP'],7.0,,resistant
+HS1,D646E,Caspofungin,[18378714 19546367 23487382 24153129 24829248],['Nakaseomyces glabratus'],['D632E'],['FLILSLREP'],7.0,,resistant
+HS1,D646E,Echinocandin,[27020939],['Nakaseomyces glabratus'],['D632E'],['FLILSLREP'],8.0,,resistant
+HS1,D646E,Micafungin,[18378714 19546367 23487382 24153129 24829248],['Nakaseomyces glabratus'],['D632E'],['FLILSLREP'],7.0,,resistant
+HS1,D646G,Anidulafungin,[19546367 24829248],['Nakaseomyces glabratus'],['D632G'],['FLILSLRGP'],7.0,-8.0,resistant
+HS1,D646G,Caspofungin,[19546367 24829248],['Nakaseomyces glabratus'],['D632G'],['FLILSLRGP'],7.0,,resistant
+HS1,D646G,Micafungin,[19546367 24829248],['Nakaseomyces glabratus'],['D632G'],['FLILSLRGP'],7.0,-8.0,resistant
+HS1,D646H,Anidulafungin,[22751546 36106428],['Nakaseomyces glabratus'],['D632H'],['FLILSLRHP'],8.0,-8.0,sensitive
+HS1,D646H,Caspofungin,[22751546 36106428],['Nakaseomyces glabratus'],['D632H'],['FLILSLRHP'],8.0,,resistant
+HS1,D646H,Micafungin,[22751546 36106428],['Nakaseomyces glabratus'],['D632H'],['FLILSLRHP'],8.0,-8.0,sensitive
+HS1,D646V,Anidulafungin,[24890592 30895218],['Nakaseomyces glabratus'],['D632V'],['FLILSLRVP'],8.0,,resistant
+HS1,D646V,Caspofungin,[24890592 30895218],['Nakaseomyces glabratus'],['D632V'],['FLILSLRVP'],8.0,,resistant
+HS1,D646V,Micafungin,[24890592 30895218],['Nakaseomyces glabratus'],['D632V'],['FLILSLRVP'],8.0,,resistant
+HS1,D646Y,Anidulafungin,[18955538 36920237 19546367 22751546 24126582 24829248 24890592 26392494],['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus'],['D648Y' 'D642Y' 'D632Y'],['FLTLSLRYP' 'FLILSLRYP'],7.0,-8.0,resistant
+HS1,D646Y,Caspofungin,"[18955538 36920237 19546367 22751546 24126582 24153129 24829248 24890592
+ 26392494]",['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus'],['D648Y' 'D642Y' 'D632Y'],['FLTLSLRYP' 'FLILSLRYP'],7.0,-8.0,resistant
+HS1,D646Y,Micafungin,"[18955538 36920237 19546367 22751546 24126582 24153129 24829248 24890592
+ 26392494]",['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus'],['D648Y' 'D642Y' 'D632Y'],['FLTLSLRYP' 'FLILSLRYP'],7.0,-8.0,resistant
+HS1,D665E,Anidulafungin,[19546367],['Nakaseomyces glabratus'],['D666E'],['FLI-L-SLREP'],,-8.0,sensitive
+HS1,D665E,Caspofungin,[19546367],['Nakaseomyces glabratus'],['D666E'],['FLI-L-SLREP'],8.0,,resistant
+HS1,D665E,Micafungin,[19546367],['Nakaseomyces glabratus'],['D666E'],['FLI-L-SLREP'],,-8.0,sensitive
+HS1,D665G,Anidulafungin,[19546367 34699784],['Nakaseomyces glabratus'],['D666G'],['FLI-L-SLRGP'],8.0,,resistant
+HS1,D665G,Caspofungin,[19546367],['Nakaseomyces glabratus'],['D666G'],['FLI-L-SLRGP'],8.0,,resistant
+HS1,D665G,Micafungin,[19546367],['Nakaseomyces glabratus'],['D666G'],['FLI-L-SLRGP'],,-8.0,sensitive
+HS1,D665H,Anidulafungin,[31354675],['Nakaseomyces glabratus'],['D666H'],['FLI-L-SLRHP'],8.0,,resistant
+HS1,D665H,Micafungin,[31354675],['Nakaseomyces glabratus'],['D666H'],['FLI-L-SLRHP'],8.0,,resistant
+HS1,D665V,Anidulafungin,[34575729],['Nakaseomyces glabratus'],['D666V'],['FLI-L-SLRVP'],8.0,,resistant
+HS1,D665V,Micafungin,[34575729],['Nakaseomyces glabratus'],['D666V'],['FLI-L-SLRVP'],8.0,,resistant
+HS1,D665Y,Anidulafungin,[24126582],['Nakaseomyces glabratus'],['D666Y'],['FLI-L-SLRYP'],,-8.0,sensitive
+HS1,D665Y,Caspofungin,[24126582 24153129],['Nakaseomyces glabratus'],['D666Y'],['FLI-L-SLRYP'],8.0,-8.0,sensitive
+HS1,D665Y,Micafungin,[24126582 24153129],['Nakaseomyces glabratus'],['D666Y'],['FLI-L-SLRYP'],,-8.0,sensitive
+HS1,F639C,Anidulafungin,[36975998 17325225],['Candidozyma auris' 'Pichia kudriavzevii'],['F635C' 'F655C'],['CLTLSLRDP' 'CLILSIRDP'],8.0,,resistant
+HS1,F639C,Caspofungin,[37746235 36975998 17325225],['Candida albicans' 'Candidozyma auris' 'Pichia kudriavzevii'],['F641C' 'F635C' 'F655C'],['CLTLSLRDP' 'CLILSIRDP'],4.0,,resistant
+HS1,F639C,Micafungin,[36975998 17325225],['Candidozyma auris' 'Pichia kudriavzevii'],['F635C' 'F655C'],['CLTLSLRDP' 'CLILSIRDP'],8.0,,resistant
+HS1,F639I,Anidulafungin,[30895218],['Candida albicans'],['F641I'],['ILTLSLRDP'],,-8.0,sensitive
+HS1,F639I,Caspofungin,[30895218],['Candida albicans'],['F641I'],['ILTLSLRDP'],8.0,,resistant
+HS1,F639I,Micafungin,[30895218],['Candida albicans'],['F641I'],['ILTLSLRDP'],,-8.0,sensitive
+HS1,F639L,Anidulafungin,[18955538 35412354],['Candida albicans' 'Pichia kudriavzevii'],['F641L' 'F655L'],['LLTLSLRDP' 'LLILSIRDP'],8.0,,resistant
+HS1,F639L,Caspofungin,[18955538 35412354],['Candida albicans' 'Pichia kudriavzevii'],['F641L' 'F655L'],['LLTLSLRDP' 'LLILSIRDP'],8.0,,resistant
+HS1,F639L,Micafungin,[18955538],['Candida albicans'],['F641L'],['LLTLSLRDP'],8.0,,resistant
+HS1,F639S,Anidulafungin,"[16723566 18955538 20145084 30895218 35412354 31520783 36975998 19546367
+ 23487382 24126582 24829248 26017039 28784671]","['Candida albicans' 'Candida tropicalis' 'Candidozyma auris'
+ 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']",['F641S' 'F650S' 'F635S' 'F651S' 'F625S'],['SLTLSLRDP' 'SLILSLRDP'],4.0,-8.0,resistant
+HS1,F639S,Caspofungin,"[16723566 18591282 18955538 20145084 30895218 35412354 31520783 36975998
+ 19546367 23487382 24126582 24153129 24829248 26017039 28784671]","['Candida albicans' 'Candida tropicalis' 'Candidozyma auris'
+ 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']",['F641S' 'F650S' 'F635S' 'F651S' 'F625S'],['SLTLSLRDP' 'SLILSLRDP'],4.0,-8.0,resistant
+HS1,F639S,Echinocandin,[27020939],['Nakaseomyces glabratus'],['F625S'],['SLILSLRDP'],8.0,,resistant
+HS1,F639S,Micafungin,"[16723566 18955538 20145084 30895218 31520783 36975998 19546367 23487382
+ 24126582 24153129 24829248 26017039 28784671]","['Candida albicans' 'Candida tropicalis' 'Candidozyma auris'
+ 'Nakaseomyces glabratus']",['F641S' 'F650S' 'F635S' 'F625S'],['SLTLSLRDP' 'SLILSLRDP'],4.0,-8.0,resistant
+HS1,F639V,Caspofungin,[30517635 19258277],['Clavispora lusitaniae' 'Saccharomyces cerevisiae'],['F634V' 'F639V'],['VLTLSLRDP' 'VLVLSLRDP'],1.0,,resistant
+HS1,F639V,Micafungin,[19258277],['Saccharomyces cerevisiae'],['F639V'],['VLVLSLRDP'],1.0,,resistant
+HS1,F639Y,Anidulafungin,[36975998 24126582 30895218],['Candidozyma auris' 'Nakaseomyces glabratus'],['F635Y' 'F625Y'],['YLTLSLRDP' 'YLILSLRDP'],8.0,-8.0,sensitive
+HS1,F639Y,Caspofungin,[36975998 24126582 24153129 30895218 19258277],['Candidozyma auris' 'Nakaseomyces glabratus' 'Saccharomyces cerevisiae'],['F635Y' 'F625Y' 'F639Y'],['YLTLSLRDP' 'YLILSLRDP' 'YLVLSLRDP'],2.0,-8.0,resistant
+HS1,F639Y,Micafungin,[36975998 24126582 24153129 30895218 19258277],['Candidozyma auris' 'Nakaseomyces glabratus' 'Saccharomyces cerevisiae'],['F635Y' 'F625Y' 'F639Y'],['YLTLSLRDP' 'YLILSLRDP' 'YLVLSLRDP'],2.0,-8.0,resistant
+HS1,F657del,Anidulafungin,[23487382 24890592 27872063 30895218 31520783],['Nakaseomyces glabratus'],['F658del'],['-LI-L-SLRDP'],4.0,,resistant
+HS1,F657del,Caspofungin,[23487382 24153129 24890592 30895218 31520783],['Nakaseomyces glabratus'],['F658del'],['-LI-L-SLRDP'],8.0,-8.0,sensitive
+HS1,F657del,Echinocandin,[27020939],['Nakaseomyces glabratus'],['F658del'],['-LI-L-SLRDP'],8.0,,resistant
+HS1,F657del,Micafungin,[23487382 24153129 24890592 27872063 30895218 31520783],['Nakaseomyces glabratus'],['F658del'],['-LI-L-SLRDP'],4.0,-8.0,resistant
+HS1,F658L,Anidulafungin,[22751546 26392494],['Nakaseomyces glabratus'],['F659L'],['LLI-L-SLRDP'],,-8.0,sensitive
+HS1,F658L,Caspofungin,[22751546 26392494],['Nakaseomyces glabratus'],['F659L'],['LLI-L-SLRDP'],8.0,,resistant
+HS1,F658L,Micafungin,[22751546 26392494],['Nakaseomyces glabratus'],['F659L'],['LLI-L-SLRDP'],,-8.0,sensitive
+HS1,F658S,Anidulafungin,"[19546367 24126582 24829248 26392494 28784671 30895218 31520783 34699784
+ 35412354]",['Nakaseomyces glabratus'],['F659S'],['SLI-L-SLRDP'],7.0,-8.0,resistant
+HS1,F658S,Caspofungin,"[19546367 24126582 24153129 24829248 26392494 28784671 30895218 31520783
+ 35412354]",['Nakaseomyces glabratus'],['F659S'],['SLI-L-SLRDP'],7.0,-8.0,resistant
+HS1,F658S,Micafungin,[19546367 24126582 24153129 24829248 26392494 28784671 30895218 31520783],['Nakaseomyces glabratus'],['F659S'],['SLI-L-SLRDP'],7.0,-8.0,resistant
+HS1,F658V,Anidulafungin,[22948870 19546367 23487382 24126582 24829248 30895218 35412354],['Nakaseomyces glabratus'],['F659V'],['VLI-L-SLRDP'],7.0,-8.0,resistant
+HS1,F658V,Caspofungin,[22948870 19546367 23487382 24126582 24153129 24829248 30895218 35412354],['Nakaseomyces glabratus'],['F659V'],['VLI-L-SLRDP'],7.0,,resistant
+HS1,F658V,Echinocandin,[27020939],['Nakaseomyces glabratus'],['F659V'],['VLI-L-SLRDP'],8.0,,resistant
+HS1,F658V,Micafungin,[22948870 19546367 23487382 24126582 24153129 24829248 30895218],['Nakaseomyces glabratus'],['F659V'],['VLI-L-SLRDP'],7.0,-8.0,resistant
+HS1,F658Y,Anidulafungin,[20837754 24126582 24829248 24890592 28784671],['Nakaseomyces glabratus'],['F659Y'],['YLI-L-SLRDP'],8.0,,resistant
+HS1,F658Y,Caspofungin,[20837754 24126582 24153129 24829248 24890592 28784671],['Nakaseomyces glabratus'],['F659Y'],['YLI-L-SLRDP'],8.0,,resistant
+HS1,F658Y,Echinocandin,[27020939],['Nakaseomyces glabratus'],['F659Y'],['YLI-L-SLRDP'],8.0,,resistant
+HS1,F658Y,Micafungin,[20837754 24126582 24153129 24829248 24890592 28784671],['Nakaseomyces glabratus'],['F659Y'],['YLI-L-SLRDP'],8.0,-8.0,sensitive
+HS1,F658del,Anidulafungin,"[19546367 22751546 24829248 26392494 30629653 30895218 31354675 32661647
+ 34575729 34699784 35412354]",['Nakaseomyces glabratus'],['F659del'],['-LI-L-SLRDP'],4.0,,resistant
+HS1,F658del,Caspofungin,"[19546367 22751546 24829248 26392494 30629653 30895218 32277126 32661647
+ 35412354]",['Nakaseomyces glabratus'],['F659del'],['-LI-L-SLRDP'],8.0,,resistant
+HS1,F658del,Micafungin,"[19546367 22751546 24829248 26392494 28630180 30629653 30895218 31354675
+ 32277126 32661647 34575729]",['Nakaseomyces glabratus'],['F659del'],['-LI-L-SLRDP'],4.0,,resistant
+HS1,I660T,Anidulafungin,[36106428],['Nakaseomyces glabratus'],['I661T'],['FLT-L-SLRDP'],,-8.0,sensitive
+HS1,I660T,Caspofungin,[36106428],['Nakaseomyces glabratus'],['I661T'],['FLT-L-SLRDP'],,-8.0,sensitive
+HS1,I660T,Micafungin,[36106428],['Nakaseomyces glabratus'],['I661T'],['FLT-L-SLRDP'],,-8.0,sensitive
+HS1,I660_L,Anidulafungin,[37233226],['Nakaseomyces glabratus'],['I661_L662insF'],['FLIFL-SLRDP'],8.0,,resistant
+HS1,I660_L,Caspofungin,[37233226],['Nakaseomyces glabratus'],['I661_L662insF'],['FLIFL-SLRDP'],8.0,,resistant
+HS1,I660_L,Micafungin,[37233226],['Nakaseomyces glabratus'],['I661_L662insF'],['FLIFL-SLRDP'],8.0,,resistant
+HS1,L644I,Anidulafungin,[22948870 24126582 30895218],['Nakaseomyces glabratus'],['L630I'],['FLILSIRDP'],8.0,-8.0,sensitive
+HS1,L644I,Caspofungin,[22948870 24126582 24153129 30895218],['Nakaseomyces glabratus'],['L630I'],['FLILSIRDP'],8.0,-8.0,sensitive
+HS1,L644I,Micafungin,[22948870 24126582 24153129 30895218],['Nakaseomyces glabratus'],['L630I'],['FLILSIRDP'],8.0,-8.0,sensitive
+HS1,L661W,Anidulafungin,[24126582 30895218],['Nakaseomyces glabratus'],['L662W'],['FLI-W-SLRDP'],8.0,-8.0,sensitive
+HS1,L661W,Caspofungin,[24126582 24153129 30895218],['Nakaseomyces glabratus'],['L662W'],['FLI-W-SLRDP'],8.0,,resistant
+HS1,L661W,Micafungin,[24126582 24153129 30895218],['Nakaseomyces glabratus'],['L662W'],['FLI-W-SLRDP'],8.0,-8.0,sensitive
+HS1,L663R,Anidulafungin,[24126582 31354675],['Nakaseomyces glabratus'],['L664R'],['FLI-L-SRRDP'],8.0,,resistant
+HS1,L663R,Caspofungin,[24126582 24153129],['Nakaseomyces glabratus'],['L664R'],['FLI-L-SRRDP'],8.0,-8.0,sensitive
+HS1,L663R,Micafungin,[24126582 24153129],['Nakaseomyces glabratus'],['L664R'],['FLI-L-SRRDP'],8.0,,resistant
+HS1,P647A,Anidulafungin,[18443110],['Saccharomyces cerevisiae'],['P647A'],['FLVLSLRDA'],2.0,,resistant
+HS1,P647A,Caspofungin,[30517635 18443110],['Clavispora lusitaniae' 'Saccharomyces cerevisiae'],['P642A' 'P647A'],['FLTLSLRDA' 'FLVLSLRDA'],1.0,,resistant
+HS1,P647A,Micafungin,[18443110],['Saccharomyces cerevisiae'],['P647A'],['FLVLSLRDA'],2.0,,resistant
+HS1,P647H,Anidulafungin,[18955538],['Candida albicans'],['P649H'],['FLTLSLRDH'],8.0,,resistant
+HS1,P647H,Caspofungin,[18955538],['Candida albicans'],['P649H'],['FLTLSLRDH'],8.0,,resistant
+HS1,P647H,Micafungin,[18955538],['Candida albicans'],['P649H'],['FLTLSLRDH'],8.0,,resistant
+HS1,P647L,Anidulafungin,[24733467],['Candida albicans'],['P649L'],['FLTLSLRDL'],,-1.0,sensitive
+HS1,P647L,Caspofungin,[24733467],['Candida albicans'],['P649L'],['FLTLSLRDL'],,-1.0,sensitive
+HS1,P647L,Micafungin,[24733467],['Candida albicans'],['P649L'],['FLTLSLRDL'],,-1.0,sensitive
+HS1,P666F,Caspofungin,[24153129],['Nakaseomyces glabratus'],['P667F'],['FLI-L-SLRDF'],8.0,,resistant
+HS1,P666F,Micafungin,[24153129],['Nakaseomyces glabratus'],['P667F'],['FLI-L-SLRDF'],8.0,,resistant
+HS1,P666H,Anidulafungin,[31520783 34699784],['Nakaseomyces glabratus'],['P667H'],['FLI-L-SLRDH'],4.0,,resistant
+HS1,P666H,Caspofungin,[31520783],['Nakaseomyces glabratus'],['P667H'],['FLI-L-SLRDH'],8.0,,resistant
+HS1,P666H,Micafungin,[31520783],['Nakaseomyces glabratus'],['P667H'],['FLI-L-SLRDH'],8.0,,resistant
+HS1,P666T,Anidulafungin,[19546367 23487382 28784671 30629653 30895218],['Nakaseomyces glabratus'],['P667T'],['FLI-L-SLRDT'],8.0,-8.0,sensitive
+HS1,P666T,Caspofungin,[19546367 23487382 28784671 30629653 30895218],['Nakaseomyces glabratus'],['P667T'],['FLI-L-SLRDT'],8.0,,resistant
+HS1,P666T,Echinocandin,[27020939],['Nakaseomyces glabratus'],['P667T'],['FLI-L-SLRDT'],8.0,,resistant
+HS1,P666T,Micafungin,[19546367 23487382 28784671 30895218],['Nakaseomyces glabratus'],['P667T'],['FLI-L-SLRDT'],,-8.0,sensitive
+HS1,R645G,Anidulafungin,[24733467 31520783 35412354 24982083 20837754 23487382 24890592],['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus'],['R647G' 'R657G' 'R631G'],['FLTLSLGDP' 'FLILSLGDP'],2.0,-1.0,sensitive
+HS1,R645G,Caspofungin,[24733467 31520783 35412354 24982083 20837754 23487382 24153129 24890592],['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus'],['R647G' 'R657G' 'R631G'],['FLTLSLGDP' 'FLILSLGDP'],2.0,-1.0,sensitive
+HS1,R645G,Echinocandin,[27020939],['Nakaseomyces glabratus'],['R631G'],['FLILSLGDP'],8.0,,resistant
+HS1,R645G,Micafungin,[24733467 31520783 24982083 20837754 23487382 24153129 24890592],['Candida albicans' 'Kluyveromyces marxianus' 'Nakaseomyces glabratus'],['R647G' 'R657G' 'R631G'],['FLTLSLGDP' 'FLILSLGDP'],1.0,-8.0,resistant
+HS1,R664G,Anidulafungin,[20837754 23487382],['Nakaseomyces glabratus'],['R665G'],['FLI-L-SLGDP'],,-8.0,sensitive
+HS1,R664G,Caspofungin,[20837754 23487382 24153129],['Nakaseomyces glabratus'],['R665G'],['FLI-L-SLGDP'],8.0,-8.0,sensitive
+HS1,R664G,Micafungin,[20837754 23487382 24153129],['Nakaseomyces glabratus'],['R665G'],['FLI-L-SLGDP'],8.0,-8.0,sensitive
+HS1,R664S,Anidulafungin,[23487382],['Nakaseomyces glabratus'],['R665S'],['FLI-L-SLSDP'],,-8.0,sensitive
+HS1,R664S,Caspofungin,[23487382 24153129],['Nakaseomyces glabratus'],['R665S'],['FLI-L-SLSDP'],8.0,,resistant
+HS1,R664S,Micafungin,[23487382 24153129],['Nakaseomyces glabratus'],['R665S'],['FLI-L-SLSDP'],8.0,-8.0,sensitive
+HS1,S643F,Anidulafungin,"[16723566 18955538 29325167 29632013 34060660 36920237 36975998 34699784
+ 35412354]","['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus'
+ 'Pichia kudriavzevii']",['S645F' 'S639F' 'S629F' 'S659F'],['FLTLFLRDP' 'FLILFLRDP' 'FLILFIRDP'],4.0,-8.0,resistant
+HS1,S643F,Caspofungin,"[16048935 16723566 18955538 37746235 29325167 29632013 36920237 36975998
+ 35412354]",['Candida albicans' 'Candidozyma auris' 'Pichia kudriavzevii'],['S645F' 'S639F' 'S659F'],['FLTLFLRDP' 'FLILFIRDP'],4.0,-8.0,resistant
+HS1,S643F,Micafungin,[16723566 18955538 29325167 29632013 34060660 36920237 36975998],['Candida albicans' 'Candidozyma auris'],['S645F' 'S639F'],['FLTLFLRDP'],4.0,-8.0,resistant
+HS1,S643P,Anidulafungin,"[16723566 18955538 20145084 28784671 30895218 31520783 35412354 36440795
+ 29307565 31281859 36975998 24982083 24829248 19546367 20837754 22354305
+ 22948870 24126582 24890592 31111912 32661647 34699784]","['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis'
+ 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris'
+ 'Kluyveromyces marxianus' 'Nakaseomyces glabratus' 'Pichia kudriavzevii']",['S645P' 'S656P' 'S654P' 'S639P' 'S655P' 'S629P' 'S659P'],['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP' 'FLILPIRDP'],1.0,-8.0,resistant
+HS1,S643P,Caspofungin,"[16048935 16716141 16723566 18591282 18955538 20145084 28784671 30895218
+ 31520783 35412354 36440795 31281859 36975998 30517635 24982083 24829248
+ 19546367 20837754 22354305 22948870 24126582 24153129 24890592 30559734
+ 31111912 32661647]","['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis'
+ 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris'
+ 'Clavispora lusitaniae' 'Kluyveromyces marxianus'
+ 'Nakaseomyces glabratus' 'Pichia kudriavzevii']",['S645P' 'S656P' 'S654P' 'S639P' 'S638P' 'S655P' 'S629P' 'S659P'],['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP' 'FLILPIRDP'],1.0,-8.0,resistant
+HS1,S643P,Echinocandin,[27020939],['Nakaseomyces glabratus'],['S629P'],['FLILPLRDP'],8.0,,resistant
+HS1,S643P,Micafungin,"[16723566 18955538 20145084 28784671 30895218 31520783 36440795 31281859
+ 36975998 24982083 24829248 19546367 20837754 22354305 22948870 24126582
+ 24153129 24890592 31111912 32661647]","['Candida albicans' 'Candida dubliniensis' 'Candida metapsilosis'
+ 'Candida parapsilosis' 'Candida tropicalis' 'Candidozyma auris'
+ 'Kluyveromyces marxianus' 'Nakaseomyces glabratus']",['S645P' 'S656P' 'S654P' 'S639P' 'S655P' 'S629P'],['FLTLPLRDP' 'FLTLPLRDA' 'FLILPLRDP'],1.0,,resistant
+HS1,S643Y,Anidulafungin,[16723566 18955538 36920237 36975998 34699784],['Candida albicans' 'Candidozyma auris' 'Nakaseomyces glabratus'],['S645Y' 'S639Y' 'S629Y'],['FLTLYLRDP' 'FLILYLRDP'],4.0,,resistant
+HS1,S643Y,Caspofungin,[16048935 16723566 18591282 18955538 37746235 36920237 36975998],['Candida albicans' 'Candidozyma auris'],['S645Y' 'S639Y'],['FLTLYLRDP'],4.0,,resistant
+HS1,S643Y,Micafungin,[16723566 18955538 36920237 36975998],['Candida albicans' 'Candidozyma auris'],['S645Y' 'S639Y'],['FLTLYLRDP'],4.0,,resistant
+HS1,S662F,Anidulafungin,[20837754 22354305 22948870 24126582 24829248 30895218 34699784 35412354],['Nakaseomyces glabratus'],['S663F'],['FLI-L-FLRDP'],4.0,,resistant
+HS1,S662F,Caspofungin,[20837754 22354305 22948870 24126582 24153129 24829248 30895218 35412354],['Nakaseomyces glabratus'],['S663F'],['FLI-L-FLRDP'],8.0,-8.0,sensitive
+HS1,S662F,Echinocandin,[27020939],['Nakaseomyces glabratus'],['S663F'],['FLI-L-FLRDP'],8.0,,resistant
+HS1,S662F,Micafungin,[20837754 22354305 22948870 24126582 24153129 24829248 30895218],['Nakaseomyces glabratus'],['S663F'],['FLI-L-FLRDP'],8.0,-8.0,sensitive
+HS1,S662P,Anidulafungin,"[19546367 20145084 20837754 22948870 23487382 24126582 24829248 24890592
+ 26392494 27872063 28784671 29228268 30629653 30895218 31111912 31354675
+ 31520783 32661647 34575729 34699784 35412354]",['Nakaseomyces glabratus'],['S663P'],['FLI-L-PLRDP'],4.0,-8.0,resistant
+HS1,S662P,Caspofungin,"[19546367 20038613 20145084 20837754 22615574 22948870 23487382 24126582
+ 24153129 24829248 24890592 26392494 28784671 30559734 30629653 30895218
+ 31111912 31520783 32277126 32661647 35412354]",['Nakaseomyces glabratus'],['S663P'],['FLI-L-PLRDP'],1.0,-8.0,resistant
+HS1,S662P,Echinocandin,[27020939],['Nakaseomyces glabratus'],['S663P'],['FLI-L-PLRDP'],8.0,,resistant
+HS1,S662P,Micafungin,"[19546367 20145084 20837754 22948870 23487382 24126582 24153129 24829248
+ 24890592 26392494 27872063 28784671 29228268 30629653 30895218 31111912
+ 31354675 31520783 32277126 32661647 34575729]",['Nakaseomyces glabratus'],['S663P'],['FLI-L-PLRDP'],4.0,-8.0,resistant
+HS1,S662Y,Anidulafungin,[24126582 27872063 30895218],['Nakaseomyces glabratus'],['S663Y'],['FLI-L-YLRDP'],4.0,,resistant
+HS1,S662Y,Caspofungin,[24126582 24153129 30895218],['Nakaseomyces glabratus'],['S663Y'],['FLI-L-YLRDP'],8.0,,resistant
+HS1,S662Y,Micafungin,[24126582 24153129 27872063 30895218],['Nakaseomyces glabratus'],['S663Y'],['FLI-L-YLRDP'],4.0,,resistant
+HS2,R1357G,Anidulafungin,[35412354],['Candida albicans'],['R1361G'],['DWIRGYTL'],8.0,,resistant
+HS2,R1357G,Caspofungin,[35412354 30517635],['Candida albicans' 'Clavispora lusitaniae'],['R1361G' 'R1352G'],['DWIRGYTL'],1.0,,resistant
+HS2,R1357H,Anidulafungin,[18955538 37233240 36920237],['Candida albicans' 'Candidozyma auris'],['R1361H' 'R1354H'],['DWIRHYTL'],1.0,,resistant
+HS2,R1357H,Caspofungin,[18955538 37233240 36920237],['Candida albicans' 'Candidozyma auris'],['R1361H' 'R1354H'],['DWIRHYTL'],1.0,,resistant
+HS2,R1357H,Micafungin,[18955538 37233240 36920237],['Candida albicans' 'Candidozyma auris'],['R1361H' 'R1354H'],['DWIRHYTL'],1.0,,resistant
+HS2,R1357Y,Anidulafungin,[36920237],['Candidozyma auris'],['R1354Y'],['DWIRYYTL'],8.0,,resistant
+HS2,R1357Y,Caspofungin,[36920237],['Candidozyma auris'],['R1354Y'],['DWIRYYTL'],8.0,,resistant
+HS2,R1357Y,Micafungin,[36920237],['Candidozyma auris'],['R1354Y'],['DWIRYYTL'],8.0,,resistant
+HS2,R1375K,Anidulafungin,[27069849],['Nakaseomyces glabratus'],['R1377K'],['DWIKRYTL'],8.0,,resistant
+HS2,R1375K,Micafungin,[27069849],['Nakaseomyces glabratus'],['R1377K'],['DWIKRYTL'],8.0,,resistant
+HS2,R1376H,Anidulafungin,[34699784],['Nakaseomyces glabratus'],['R1378H'],['DWIRHYTL'],8.0,,resistant
+HS2,R1376S,Anidulafungin,[34699784 35412354],['Nakaseomyces glabratus'],['R1378S'],['DWIRSYTL'],4.0,,resistant
+HS2,R1376S,Caspofungin,[35412354],['Nakaseomyces glabratus'],['R1378S'],['DWIRSYTL'],8.0,,resistant
+HS2,V1355S,Anidulafungin,[35412354],['Candida tropicalis'],['I1368S'],['DWSRRYTL'],8.0,,resistant
+HS2,V1355S,Caspofungin,[35412354],['Candida tropicalis'],['I1368S'],['DWSRRYTL'],8.0,,resistant
+HS2,W1354R,Anidulafungin,[30429225],['Candida parapsilosis'],['W1370R'],['DRIRRYTL'],8.0,,resistant
+HS2,W1354R,Caspofungin,[18591282 30429225],['Candida albicans' 'Candida parapsilosis'],['W1358R' 'W1370R'],['DRIRRYTL'],7.0,,resistant
+HS2,W1354R,Micafungin,[30429225],['Candida parapsilosis'],['W1370R'],['DRIRRYTL'],8.0,,resistant
+HS2,W1373L,Anidulafungin,[19546367],['Nakaseomyces glabratus'],['W1375L'],['DLIRRYTL'],,-8.0,sensitive
+HS2,W1373L,Caspofungin,[19546367],['Nakaseomyces glabratus'],['W1375L'],['DLIRRYTL'],8.0,,resistant
+HS2,W1373L,Micafungin,[19546367],['Nakaseomyces glabratus'],['W1375L'],['DLIRRYTL'],,-8.0,sensitive
+HS3,D691A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['D691A'],['LATYLWYIIVN'],,-1.0,sensitive
+HS3,D691A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['D691A'],['LATYLWYIIVN'],,-1.0,sensitive
+HS3,D691A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['D691A'],['LATYLWYIIVN'],,-1.0,sensitive
+HS3,D691T,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['D691T'],['LTTYLWYIIVN'],1.0,,resistant
+HS3,D691T,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['D691T'],['LTTYLWYIIVN'],1.0,,resistant
+HS3,D691T,Micafungin,[21576441],['Saccharomyces cerevisiae'],['D691T'],['LTTYLWYIIVN'],1.0,,resistant
+HS3,I697C,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697C'],['LDTYLWYCIVN'],1.0,,resistant
+HS3,I697C,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697C'],['LDTYLWYCIVN'],1.0,,resistant
+HS3,I697C,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697C'],['LDTYLWYCIVN'],1.0,,resistant
+HS3,I697D,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697D'],['LDTYLWYDIVN'],,-1.0,sensitive
+HS3,I697D,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697D'],['LDTYLWYDIVN'],,-1.0,sensitive
+HS3,I697D,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697D'],['LDTYLWYDIVN'],,-1.0,sensitive
+HS3,I697F,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697F'],['LDTYLWYFIVN'],1.0,,resistant
+HS3,I697F,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697F'],['LDTYLWYFIVN'],1.0,,resistant
+HS3,I697F,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697F'],['LDTYLWYFIVN'],1.0,,resistant
+HS3,I697R,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697R'],['LDTYLWYRIVN'],1.0,,resistant
+HS3,I697R,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697R'],['LDTYLWYRIVN'],1.0,,resistant
+HS3,I697R,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697R'],['LDTYLWYRIVN'],1.0,,resistant
+HS3,I697T,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697T'],['LDTYLWYTIVN'],1.0,,resistant
+HS3,I697T,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697T'],['LDTYLWYTIVN'],1.0,,resistant
+HS3,I697T,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697T'],['LDTYLWYTIVN'],1.0,,resistant
+HS3,I697V,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I697V'],['LDTYLWYVIVN'],,-1.0,sensitive
+HS3,I697V,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I697V'],['LDTYLWYVIVN'],,-1.0,sensitive
+HS3,I697V,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I697V'],['LDTYLWYVIVN'],,-1.0,sensitive
+HS3,I698H,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I698H'],['LDTYLWYIHVN'],1.0,,resistant
+HS3,I698H,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I698H'],['LDTYLWYIHVN'],1.0,,resistant
+HS3,I698H,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I698H'],['LDTYLWYIHVN'],1.0,,resistant
+HS3,I698N,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I698N'],['LDTYLWYINVN'],1.0,,resistant
+HS3,I698N,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I698N'],['LDTYLWYINVN'],1.0,,resistant
+HS3,I698N,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I698N'],['LDTYLWYINVN'],1.0,,resistant
+HS3,I698P,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I698P'],['LDTYLWYIPVN'],1.0,,resistant
+HS3,I698P,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I698P'],['LDTYLWYIPVN'],1.0,,resistant
+HS3,I698P,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I698P'],['LDTYLWYIPVN'],1.0,,resistant
+HS3,I698S,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I698S'],['LDTYLWYISVN'],,-1.0,sensitive
+HS3,I698S,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I698S'],['LDTYLWYISVN'],,-1.0,sensitive
+HS3,I698S,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I698S'],['LDTYLWYISVN'],,-1.0,sensitive
+HS3,I698V,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['I698V'],['LDTYLWYIVVN'],,-1.0,sensitive
+HS3,I698V,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['I698V'],['LDTYLWYIVVN'],,-1.0,sensitive
+HS3,I698V,Micafungin,[21576441],['Saccharomyces cerevisiae'],['I698V'],['LDTYLWYIVVN'],,-1.0,sensitive
+HS3,L690A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L690A'],['ADTYLWYIIVN'],1.0,,resistant
+HS3,L690A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L690A'],['ADTYLWYIIVN'],1.0,,resistant
+HS3,L690A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L690A'],['ADTYLWYIIVN'],1.0,,resistant
+HS3,L690E,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L690E'],['EDTYLWYIIVN'],1.0,,resistant
+HS3,L690E,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L690E'],['EDTYLWYIIVN'],1.0,,resistant
+HS3,L690E,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L690E'],['EDTYLWYIIVN'],1.0,,resistant
+HS3,L690F,Anidulafungin,[30429225],['Candida parapsilosis'],['L703F'],['FDTYLWYIICN'],,-8.0,sensitive
+HS3,L690F,Caspofungin,[30429225],['Candida parapsilosis'],['L703F'],['FDTYLWYIICN'],,-8.0,sensitive
+HS3,L690F,Micafungin,[30429225],['Candida parapsilosis'],['L703F'],['FDTYLWYIICN'],8.0,,resistant
+HS3,L690G,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L690G'],['GDTYLWYIIVN'],,-1.0,sensitive
+HS3,L690G,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L690G'],['GDTYLWYIIVN'],,-1.0,sensitive
+HS3,L690G,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L690G'],['GDTYLWYIIVN'],,-1.0,sensitive
+HS3,L690W,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L690W'],['WDTYLWYIIVN'],,-1.0,sensitive
+HS3,L690W,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L690W'],['WDTYLWYIIVN'],,-1.0,sensitive
+HS3,L690W,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L690W'],['WDTYLWYIIVN'],,-1.0,sensitive
+HS3,L694A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L694A'],['LDTYAWYIIVN'],1.0,,resistant
+HS3,L694A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L694A'],['LDTYAWYIIVN'],1.0,,resistant
+HS3,L694A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L694A'],['LDTYAWYIIVN'],1.0,,resistant
+HS3,L694T,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['L694T'],['LDTYTWYIIVN'],,-1.0,sensitive
+HS3,L694T,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['L694T'],['LDTYTWYIIVN'],,-1.0,sensitive
+HS3,L694T,Micafungin,[21576441],['Saccharomyces cerevisiae'],['L694T'],['LDTYTWYIIVN'],,-1.0,sensitive
+HS3,N700S,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['N700S'],['LDTYLWYIIVS'],1.0,,resistant
+HS3,N700S,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['N700S'],['LDTYLWYIIVS'],1.0,,resistant
+HS3,N700S,Micafungin,[21576441],['Saccharomyces cerevisiae'],['N700S'],['LDTYLWYIIVS'],1.0,,resistant
+HS3,T692A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['T692A'],['LDAYLWYIIVN'],1.0,,resistant
+HS3,T692A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['T692A'],['LDAYLWYIIVN'],1.0,,resistant
+HS3,T692A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['T692A'],['LDAYLWYIIVN'],1.0,,resistant
+HS3,T692S,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['T692S'],['LDSYLWYIIVN'],,-1.0,sensitive
+HS3,T692S,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['T692S'],['LDSYLWYIIVN'],,-1.0,sensitive
+HS3,T692S,Micafungin,[21576441],['Saccharomyces cerevisiae'],['T692S'],['LDSYLWYIIVN'],,-1.0,sensitive
+HS3,V699A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699A'],['LDTYLWYIIAN'],,-1.0,sensitive
+HS3,V699A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699A'],['LDTYLWYIIAN'],,-1.0,sensitive
+HS3,V699A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699A'],['LDTYLWYIIAN'],,-1.0,sensitive
+HS3,V699C,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699C'],['LDTYLWYIICN'],1.0,,resistant
+HS3,V699C,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699C'],['LDTYLWYIICN'],1.0,,resistant
+HS3,V699C,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699C'],['LDTYLWYIICN'],1.0,,resistant
+HS3,V699Q,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699Q'],['LDTYLWYIIQN'],1.0,,resistant
+HS3,V699Q,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699Q'],['LDTYLWYIIQN'],1.0,,resistant
+HS3,V699Q,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699Q'],['LDTYLWYIIQN'],1.0,,resistant
+HS3,V699S,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699S'],['LDTYLWYIISN'],,-1.0,sensitive
+HS3,V699S,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699S'],['LDTYLWYIISN'],,-1.0,sensitive
+HS3,V699S,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699S'],['LDTYLWYIISN'],,-1.0,sensitive
+HS3,V699T,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699T'],['LDTYLWYIITN'],,-1.0,sensitive
+HS3,V699T,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699T'],['LDTYLWYIITN'],,-1.0,sensitive
+HS3,V699T,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699T'],['LDTYLWYIITN'],,-1.0,sensitive
+HS3,V699W,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['V699W'],['LDTYLWYIIWN'],1.0,,resistant
+HS3,V699W,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['V699W'],['LDTYLWYIIWN'],1.0,,resistant
+HS3,V699W,Micafungin,[21576441],['Saccharomyces cerevisiae'],['V699W'],['LDTYLWYIIWN'],1.0,,resistant
+HS3,W695C,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['W695C'],['LDTYLCYIIVN'],1.0,,resistant
+HS3,W695C,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['W695C'],['LDTYLCYIIVN'],1.0,,resistant
+HS3,W695C,Micafungin,[21576441],['Saccharomyces cerevisiae'],['W695C'],['LDTYLCYIIVN'],1.0,,resistant
+HS3,W695F,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['W695F'],['LDTYLFYIIVN'],1.0,,resistant
+HS3,W695F,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['W695F'],['LDTYLFYIIVN'],1.0,,resistant
+HS3,W695F,Micafungin,[21576441],['Saccharomyces cerevisiae'],['W695F'],['LDTYLFYIIVN'],1.0,,resistant
+HS3,W695L,Anidulafungin,[37222585 21576441],['Candidozyma auris' 'Saccharomyces cerevisiae'],['W691L' 'W695L'],['LDTYMLYIICN' 'LDTYLLYIIVN'],1.0,,resistant
+HS3,W695L,Caspofungin,[37222585 21576441],['Candidozyma auris' 'Saccharomyces cerevisiae'],['W691L' 'W695L'],['LDTYMLYIICN' 'LDTYLLYIIVN'],1.0,,resistant
+HS3,W695L,Micafungin,[37222585 21576441],['Candidozyma auris' 'Saccharomyces cerevisiae'],['W691L' 'W695L'],['LDTYMLYIICN' 'LDTYLLYIIVN'],1.0,,resistant
+HS3,W714L,Anidulafungin,[29228268],['Nakaseomyces glabratus'],['W715L'],['LDTYLLYIVVN'],4.0,,resistant
+HS3,W714L,Micafungin,[29228268],['Nakaseomyces glabratus'],['W715L'],['LDTYLLYIVVN'],4.0,,resistant
+HS3,Y693C,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y693C'],['LDTCLWYIIVN'],1.0,,resistant
+HS3,Y693C,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y693C'],['LDTCLWYIIVN'],1.0,,resistant
+HS3,Y693C,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y693C'],['LDTCLWYIIVN'],1.0,,resistant
+HS3,Y693F,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y693F'],['LDTFLWYIIVN'],,-1.0,sensitive
+HS3,Y693F,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y693F'],['LDTFLWYIIVN'],,-1.0,sensitive
+HS3,Y693F,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y693F'],['LDTFLWYIIVN'],,-1.0,sensitive
+HS3,Y693S,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y693S'],['LDTSLWYIIVN'],,-1.0,sensitive
+HS3,Y693S,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y693S'],['LDTSLWYIIVN'],,-1.0,sensitive
+HS3,Y693S,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y693S'],['LDTSLWYIIVN'],,-1.0,sensitive
+HS3,Y696A,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y696A'],['LDTYLWAIIVN'],,-1.0,sensitive
+HS3,Y696A,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y696A'],['LDTYLWAIIVN'],,-1.0,sensitive
+HS3,Y696A,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y696A'],['LDTYLWAIIVN'],,-1.0,sensitive
+HS3,Y696F,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y696F'],['LDTYLWFIIVN'],,-1.0,sensitive
+HS3,Y696F,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y696F'],['LDTYLWFIIVN'],,-1.0,sensitive
+HS3,Y696F,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y696F'],['LDTYLWFIIVN'],,-1.0,sensitive
+HS3,Y696I,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y696I'],['LDTYLWIIIVN'],1.0,,resistant
+HS3,Y696I,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y696I'],['LDTYLWIIIVN'],1.0,,resistant
+HS3,Y696I,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y696I'],['LDTYLWIIIVN'],1.0,,resistant
+HS3,Y696N,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y696N'],['LDTYLWNIIVN'],1.0,,resistant
+HS3,Y696N,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y696N'],['LDTYLWNIIVN'],1.0,,resistant
+HS3,Y696N,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y696N'],['LDTYLWNIIVN'],1.0,,resistant
+HS3,Y696W,Anidulafungin,[21576441],['Saccharomyces cerevisiae'],['Y696W'],['LDTYLWWIIVN'],,-1.0,sensitive
+HS3,Y696W,Caspofungin,[21576441],['Saccharomyces cerevisiae'],['Y696W'],['LDTYLWWIIVN'],,-1.0,sensitive
+HS3,Y696W,Micafungin,[21576441],['Saccharomyces cerevisiae'],['Y696W'],['LDTYLWWIIVN'],,-1.0,sensitive

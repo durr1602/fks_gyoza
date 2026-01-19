@@ -237,7 +237,7 @@ def generate_expected_mutants(locus):
     ----------
     locus : str
         Unique identifier for the mutated locus.
-    
+
     Returns
     -------
     pandas.DataFrame
@@ -264,7 +264,9 @@ def generate_expected_mutants(locus):
     # with --no-temp --until generate_mutants
     # also needs --forcerun generate_mutants if gyoza has already run
     # (quick hack for HS3 - copy file in correct folder)
-    all_mut = pd.read_csv(f"../../config/project_files/expected_mut/{locus}.csv.gz")[["Mutated_seq", "WT_seq", "nt_seq"]]
+    all_mut = pd.read_csv(f"../../config/project_files/expected_mut/{locus}.csv.gz")[
+        ["Mutated_seq", "WT_seq", "nt_seq"]
+    ]
     annotated = annotate_mutants(all_mut, codon_dic)
     silent = annotated[annotated.Nham_aa == 0][["Mutated_seq", "WT_seq", "nt_seq"]]
 

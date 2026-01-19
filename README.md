@@ -58,6 +58,11 @@ Thresholds were set to resolve overlaps between the different gaussians predicte
 
 Classification was collapsed (deleterious/non-deleterious in the control condition, sensitive/resistant upon selection).
 
+### Comparison with FungAMR
+The FungAMR database was downloaded on April 7th, 2025, then parsed using [this script](./pre/scripts/Fks1_ortholog_matuted_seq_fungAMR.py) to convert mutations previously reported in the literature to *S. cerevisiae* numbering.
+
+[This notebook](./post/notebooks/compare_to_fungamr.ipynb) was then used to compare what has been reported (mostly MICs) to our classified data.
+
 ### Validations with reconstructed mutants
 DMS data were [compared to growth data](./post/notebooks/20240129_validations_test3.ipynb) from reconstructed mutants to perform a linear regression and infer a score for a few single mutants in FKS1-HS1 missing from the DMS dataset. Note: the mutants to be reconstructed were selected because they spanned the full fitness range. This was done a while ago using a notebook that I won't include in this repo but is accessible [here](https://github.com/Landrylab/Durand_et_al_2024/blob/fefd36630aa73609d9b551f08b29505e646d8769/select_mutants_for_reconstruction.ipynb).
 
