@@ -6,12 +6,12 @@ def refine_class(v, comp, threshdf):
         (threshdf.compound == comp) & (threshdf.thresh == "up"), "val"
     ].values[0]
 
-    if (comp in ["none", "dox"]) & (v > -0.7):
+    if (comp in ["none", "dox"]) & (v > -0.5):
         if v >= wtbound:
             return "WT-like"
         else:
             return "slightly deleterious"
-    elif (comp in ["none", "dox"]) & (v < -0.7):
+    elif (comp in ["none", "dox"]) & (v < -0.5):
         return "deleterious"
     else:
         if v <= wtbound:
