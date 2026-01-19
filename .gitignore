@@ -11,6 +11,7 @@ results/df/*
 !results/df/all_stats*
 !results/df/all_scores*
 !results/df/avg_scores*
+!results/df/agg_aa/
 !results/df/distribution_freq/
 profiles
 logs
