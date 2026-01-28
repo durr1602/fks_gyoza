@@ -73,3 +73,6 @@ A second validation experiment was performed with more mutants, this time outsid
 
 ### Generate defattr files for ChimeraX
 [This notebook](./post/notebooks/defattr.ipynb) was used to generate the files used in ChimeraX to plot onto the protein structures the proportion of resistant mutants per position for each hotspot.
+
+### Generate logos from homologous hotspot sequences
+[This notebook](./post/notebooks/orthologs.ipynb) was used to find associations between residues at each position and the resistance phenotype of homologous hotspot sequences spiked in the DMS experiment.
