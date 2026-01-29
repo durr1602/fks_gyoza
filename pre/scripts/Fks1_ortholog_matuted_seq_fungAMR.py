@@ -488,7 +488,7 @@ fks_mutated_final_aligned.drop(
     ],
     inplace=True,
 )
-fks_mutated_final_aligned.to_csv(f"{wkdir}Fks_mutated_hotspot_seq_{date}.csv")
+fks_mutated_final_aligned.to_csv(f"{wkdir}Fks_mutated_hotspot_seq_{date}.csv") # S1 Data after a few adjustments
 
 # %% Aggregate
 fks_mutated_final_aligned = pd.read_csv(
