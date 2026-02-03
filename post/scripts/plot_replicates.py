@@ -201,6 +201,6 @@ if __name__ == "__main__":
 
     filedir = "../../results/df/agg_aa/"
     main(
-        [os.path.join(filedir, f) for f in os.listdir(filedir)],
+        [os.path.join(filedir, f) for f in os.listdir(filedir) if "R1158__FKS1__" not in f],
         "../graphs/replicates.svg",
     )

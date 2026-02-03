@@ -20,7 +20,7 @@ Deletion mutants for the hotspot 1 of FKS1 and FKS2 + the parental strain were c
 
 ## gyōza
 
-The first step was to analyze the DMS dataset with [gyōza](https://github.com/durr1602/gyoza) (at this time `--tag 5fcdf3b`)
+The first step was to analyze the DMS dataset with [gyōza v1.2.1](https://github.com/durr1602/gyoza)
 
 Single mutants of Hotspots 1, 2 and 3 were analyzed using [this config](./config/config.yaml).
 
@@ -49,7 +49,7 @@ Simply run [this notebook](./post/notebooks/driver.ipynb)
 Allele frequencies for libraries of single mutants and homologous hotspot sequences were compared before/after overnight culture. (before = MiSeq/Aviti preliminary sequencing runs to estimate diversity in libraries, after = T0 of main sequencing runs). The corresponding dataframes (obtained from different gyōza runs) were manually copied to two single locations (`pre/freq_libraries` and `results/df/distribution_freq`) before being compared using [this notebook](./post/notebooks/bottlenecks.ipynb).
 
 ### Estimation of replicability
-Spearman correlation coefficients were calculated for each pairwise comparison of replicates using [this script](./post/scripts/plot_replicates.py)
+Spearman correlation coefficients were calculated for each pairwise comparison of replicates using [this script](./post/scripts/plot_replicates.py). We also compared results for FKS1-HS1 and FKS1-HS2 with or without repression of *FKS2* using [this script](./post/scripts/BYvR11.py).
 
 ### Classification of scores to get labels
 A Gaussian Mixture Model (GMM) was [trained](./post/notebooks/train_GMM.ipynb) and used to [classify fitness scores](./post/notebooks/classify_gyoza_data.ipynb) calculated by gyōza to obtain labels reflecting mutational effects (deleterious, WT-like, intermediary, resistant, etc).
