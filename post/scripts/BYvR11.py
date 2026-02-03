@@ -67,12 +67,12 @@ for i,l in enumerate(loci):
         sr, sp = stats.spearmanr(subset.BY4741, subset.R1158)
         g.axes[i][j].text(
             0.5, 0.05,
-            rf"$\rho = {sr:.2f}$" + "\n" + r"$\it{p}$-val = " + f"{sp:.1e}",
+            rf"$\rho$ = {sr:.2f}" + "\n$\it{p}$-val = " + f"{sp:.1e}",
             transform=g.axes[i][j].transAxes,
             fontsize=8,
         )
 
-g.set_axis_labels(r"s ($\it{FKS2}$)", r"s ($\it{fks2}$)")
+g.set_axis_labels("s ($\it{FKS2}$)", "s ($\it{fks2}$)")
 g.set_titles(row_template="{row_name}", col_template="{col_name}")
 
 plt.tight_layout()
