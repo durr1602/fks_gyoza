@@ -17,14 +17,15 @@ compounds = ["None", "Anidulafungin", "Caspofungin", "Micafungin"]
 # Import data
 df = pd.read_csv(s_path)
 df["compound"] = df["compound"].astype(str).str.title()
-wide = df[(df.Mutated_seq.isin(loci))
-          & (df.compound.isin(compounds))
-          & (df.Nham_aa == 1)
-          ].pivot(
-    index=["Mutated_seq", "compound", "aa_pos", "alt_aa"],
-    columns="strain",
-    values="fitness_T2"
-).reset_index()
+wide = (
+    df[(df.Mutated_seq.isin(loci)) & (df.compound.isin(compounds)) & (df.Nham_aa == 1)]
+    .pivot(
+        index=["Mutated_seq", "compound", "aa_pos", "alt_aa"],
+        columns="strain",
+        values="fitness_T2",
+    )
+    .reset_index()
+)
 
 # Plot
 sns.set_theme(
@@ -54,19 +55,30 @@ g = sns.FacetGrid(
     col="compound",
     col_order=compounds,
     margin_titles=True,
-    height=2
+    height=2,
 )
 
 # Map scatter
-g.map_dataframe(sns.scatterplot, x="BY4741", y="R1158", s=8, alpha=0.2, color=sns.color_palette("mako", 1), edgecolor="none")
+g.map_dataframe(
+    sns.scatterplot,
+    x="BY4741",
+    y="R1158",
+    s=8,
+    alpha=0.2,
+    color=sns.color_palette("mako", 1),
+    edgecolor="none",
+)
 
 # Spearman correlation
-for i,l in enumerate(loci):
-    for j,c in enumerate(compounds):
-        subset = wide[(wide.Mutated_seq == l) & (wide.compound == c)].dropna(subset=["BY4741", "R1158"])
+for i, l in enumerate(loci):
+    for j, c in enumerate(compounds):
+        subset = wide[(wide.Mutated_seq == l) & (wide.compound == c)].dropna(
+            subset=["BY4741", "R1158"]
+        )
         sr, sp = stats.spearmanr(subset.BY4741, subset.R1158)
         g.axes[i][j].text(
-            0.5, 0.05,
+            0.5,
+            0.05,
             rf"$\rho$ = {sr:.2f}" + "\n$\it{p}$-val = " + f"{sp:.1e}",
             transform=g.axes[i][j].transAxes,
             fontsize=8,
