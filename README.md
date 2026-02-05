@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1150695954.svg)](https://zenodo.org/badge/latestdoi/1150695954)
+
 # Repo for the analysis of Fks hotspots DMS
 
 Welcome to the new-and-improved companion repo for [this manuscript](https://www.biorxiv.org/content/10.1101/2024.07.21.604487).
