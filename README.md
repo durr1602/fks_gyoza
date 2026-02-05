@@ -1,6 +1,6 @@
-# Private repo for the analysis of Fks hotspots DMS
+# Repo for the analysis of Fks hotspots DMS
 
-This repo is meant to become the new and improved companion repo for [this manuscript](https://www.biorxiv.org/content/10.1101/2024.07.21.604487).
+Welcome to the new-and-improved companion repo for [this manuscript](https://www.biorxiv.org/content/10.1101/2024.07.21.604487).
 
 It is essentially divided in two sections: `pre/`, which corresponds to preliminary steps and analyses and `post/`, which corresponds to downstream analysis of selection coefficients obtained using gyōza (as well as analysis of experiments performed after the DMS).
 
@@ -62,7 +62,7 @@ Thresholds were set to resolve overlaps between the different gaussians predicte
 Classification was collapsed (deleterious/non-deleterious in the control condition, sensitive/resistant upon selection).
 
 ### Comparison with FungAMR
-The FungAMR database was downloaded on April 7th, 2025, then parsed using [this script](./pre/scripts/Fks1_ortholog_matuted_seq_fungAMR.py) to convert mutations previously reported in the literature to *S. cerevisiae* numbering, generating [a raw version of S1 Data](./pre/fungamr/Fks_mutated_hotspot_seq_160126.csv).
+[The FungAMR database](https://card.mcmaster.ca/fungamrhome) was downloaded on April 7th, 2025, then parsed using [this script](./pre/scripts/Fks1_ortholog_matuted_seq_fungAMR.py) to convert mutations previously reported in the literature to *S. cerevisiae* numbering, generating [a raw version of S1 Data](./pre/fungamr/Fks_mutated_hotspot_seq_160126.csv).
 
 [This notebook](./post/notebooks/compare_to_fungamr.ipynb) was then used to compare what has been reported (mostly MICs) to our classified data, generating a fragmented version of S2 Data (e.g. [FKS1-HS1](./post/fungamr/agreements_BY4741_FKS1-HS1.csv)).
 
