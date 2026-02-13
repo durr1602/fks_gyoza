@@ -1,0 +1,484 @@
+Fungi
+++Blastocladiomycota
+| \-Allomyces macrogynus
++-Basidiomycota
+| ++Microbotryomycetes
+| | \-Sporobolomyces roseus
+| +-Agaricomycetes
+| | ++Polyporales
+| | | \-Phanerodontia chrysosporium
+| | \-Agaricales
+| |   ++Hydnangiaceae
+| |   | \-Laccaria bicolor
+| |   \+Psathyrellaceae
+| |     \-Coprinopsis cinerea
+| +-Pucciniomycetes
+| | \-Pucciniales
+| |   ++Melampsoraceae
+| |   | \-Melampsora laricis-populina
+| |   \-Pucciniaceae
+| |     \-Puccinia
+| |       +-Puccinia triticina
+| |       \-Puccinia graminis
+| +-Ustilaginomycetes
+| | \-Ustilaginales
+| |   ++Ustilaginaceae
+| |   | \-Ustilago hordei
+| |   \-Mycosarcoma
+| |     \-Mycosarcoma maydis
+| \+Tremellomycetes
+|   \-Cryptococcus
+|     +-Cryptococcus amylolentus
+|     +-Cryptococcus gattii
+|     \-Cryptococcus neoformans
++-Ascomycota
+| ++Orbiliomycetes
+| | \-Orbiliaceae
+| |   +-Orbilia
+| |   | \-Orbilia oligospora
+| |   \-Dactylellina
+| |     \-Dactylellina haptotyla
+| ++Trigonopsidomycetes
+| | \-Tortispora caseinolytica
+| ++Pneumocystomycetes
+| | \-Pneumocystis jirovecii
+| ++Lipomycetes
+| | \-Lipomyces starkeyi
+| +-Leotiomycetes
+| | ++Myxotrichaceae
+| | | \-Oidiodendron maius
+| | +-Erysiphales
+| | | \-Erysiphaceae
+| | |   +-Erysiphe
+| | |   | \-Erysiphe necator
+| | |   \-Blumeria
+| | |     \-Blumeria graminis
+| | \-Helotiales
+| |   ++Hyaloscyphaceae
+| |   | \-Hyaloscypha variabilis
+| |   +-Rutstroemiaceae
+| |   | \-Rutstroemia
+| |   |   +-Rutstroemia sp. NJR-2017a BBW
+| |   |   \-Rutstroemia sp. NJR-2017a WRK4
+| |   +-Drepanopezizaceae
+| |   | +-Diplocarpon
+| |   | | \-Diplocarpon rosae
+| |   | \-Drepanopeziza
+| |   |   \-Drepanopeziza brunnea
+| |   ++Mollisiaceae
+| |   | \-Phialocephala subalpina
+| |   ++Helotiaceae
+| |   | \-Glarea lozoyensis
+| |   +-Ploettnerulaceae
+| |   | \-Rhynchosporium
+| |   |   +-Rhynchosporium graminicola
+| |   |   \-Rhynchosporium secalis
+| |   +-Sclerotiniaceae
+| |   | \-Sclerotinia
+| |   |   +-Sclerotinia borealis
+| |   |   \-Sclerotinia sclerotiorum
+| |   \+Amorphothecaceae
+| |     \-Amorphotheca resinae
+| +-Sordariomycetes
+| | ++Amphisphaeriales
+| | | \-Pestalotiopsis fici
+| | ++Togniniales
+| | | \-Phaeoacremonium minimum
+| | +-Xylariales
+| | | ++Microdochiaceae
+| | | | \-Microdochium bolleyi
+| | | ++Diatrypaceae
+| | | | \-Eutypa lata
+| | | \+Xylariaceae
+| | |   \-Rosellinia necatrix
+| | +-Microascales
+| | | \-Ceratocystidaceae
+| | |   +-Ceratocystis
+| | |   | \-Ceratocystis platani
+| | |   \-Thielaviopsis
+| | |     \-Thielaviopsis punctulata
+| | ++Glomerellales
+| | | \-Colletotrichum
+| | |   +-Colletotrichum fructicola
+| | |   +-Colletotrichum higginsianum
+| | |   \-Colletotrichum graminicola
+| | +-Magnaporthales
+| | | +-Pyriculariaceae
+| | | | \-Pyricularia
+| | | |   +-Pyricularia oryzae
+| | | |   \-Pyricularia grisea
+| | | \-Magnaporthaceae
+| | |   +-Magnaporthiopsis
+| | |   | \-Magnaporthiopsis poae
+| | |   \-Gaeumannomyces
+| | |     +-Gaeumannomyces tritici
+| | |     \-Gaeumannomyces graminis
+| | +-Ophiostomatales
+| | | \-Ophiostomataceae
+| | |   +-Leptographium
+| | |   | \-Leptographium clavigerum
+| | |   +-Sporothrix
+| | |   | +-Sporothrix brasiliensis
+| | |   | \-Sporothrix schenckii
+| | |   \-Ophiostoma
+| | |     +-Ophiostoma piceae
+| | |     \-Ophiostoma ulmi
+| | +-Sordariales
+| | | ++Podosporaceae
+| | | | \-Podospora anserina
+| | | +-Madurella
+| | | | \-Madurella mycetomatis
+| | | +-Chaetomiaceae
+| | | | +-Thermothielavioides
+| | | | | \-Thermothielavioides terrestris
+| | | | +-Thermochaetoides
+| | | | | \-Thermochaetoides thermophila
+| | | | \-Chaetomium
+| | | |   \-Chaetomium globosum
+| | | \-Sordariaceae
+| | |   +-Sordaria
+| | |   | \-Sordaria macrospora
+| | |   \-Neurospora
+| | |     +-Neurospora tetrasperma
+| | |     +-Neurospora discreta
+| | |     \-Neurospora crassa
+| | +-Diaporthales
+| | | ++Diaporthaceae
+| | | | \-Diaporthe ampelina
+| | | \+Cryphonectriaceae
+| | |   \-Cryphonectria parasitica
+| | \-Hypocreales
+| |   ++Stachybotryaceae
+| |   | \-Stachybotrys chartarum
+| |   ++Ophiocordycipitaceae
+| |   | \-Purpureocillium lilacinum
+| |   +-Hypocreaceae
+| |   | \-Trichoderma
+| |   |   +-Trichoderma parareesei
+| |   |   +-Trichoderma asperellum
+| |   |   +-Trichoderma atroviride
+| |   |   +-Trichoderma reesei
+| |   |   +-Trichoderma virens
+| |   |   +-Trichoderma longibrachiatum
+| |   |   \-Trichoderma harzianum
+| |   +-Nectriaceae
+| |   | \-Fusarium
+| |   |   +-Fusarium verticillioides
+| |   |   +-Fusarium pseudograminearum
+| |   |   +-Fusarium graminearum
+| |   |   +-Fusarium oxysporum
+| |   |   \-Fusarium fujikuroi
+| |   +-Clavicipitaceae
+| |   | +-[Torrubiella] hemipterigena
+| |   | +-Moelleriella
+| |   | | \-Moelleriella libera
+| |   | +-Metarhizium
+| |   | | +-Metarhizium majus
+| |   | | +-Metarhizium robertsii
+| |   | | \-Metarhizium acridum
+| |   | +-Atkinsonella
+| |   | | \-Atkinsonella hypoxylon
+| |   | +-Aciculosporium
+| |   | | \-Aciculosporium take
+| |   | +-Balansia
+| |   | | \-Balansia obtecta
+| |   | +-Epichloe
+| |   | | +-Epichloe mollis
+| |   | | +-Epichloe gansuensis
+| |   | | +-Epichloe aotearoae
+| |   | | +-Epichloe brachyelytri
+| |   | | +-Epichloe elymi
+| |   | | +-Epichloe baconii
+| |   | | +-Epichloe amarillans
+| |   | | \-Epichloe typhina
+| |   | \-Claviceps
+| |   |   +-Claviceps fusiformis
+| |   |   +-Claviceps paspali
+| |   |   \-Claviceps purpurea
+| |   \+Bionectriaceae
+| |     \-Hapsidospora chrysogena
+| +-Eurotiomycetes
+| | ++Verrucariales
+| | | \-Endocarpon pusillum
+| | +-Chaetothyriales
+| | | ++Cyphellophoraceae
+| | | | \-Cyphellophora europaea
+| | | \-Herpotrichiellaceae
+| | |   +-Fonsecaea
+| | |   | \-Fonsecaea erecta
+| | |   +-Cladophialophora
+| | |   | +-Cladophialophora psammophila
+| | |   | +-Cladophialophora yegresii
+| | |   | \-Cladophialophora carrionii
+| | |   +-Capronia
+| | |   | \-Capronia coronata
+| | |   +-Exophiala
+| | |   | +-Exophiala aquamarina
+| | |   | +-Exophiala spinifera
+| | |   | \-Exophiala dermatitidis
+| | |   \-Phialophora
+| | |     \-Phialophora americana
+| | +-Eurotiales
+| | | ++Thermoascaceae
+| | | | \-Paecilomyces variotii
+| | | +-Trichocomaceae
+| | | | +-Rasamsonia
+| | | | | \-Rasamsonia emersonii
+| | | | \-Talaromyces
+| | | |   +-Talaromyces verruculosus
+| | | |   +-Talaromyces pinophilus
+| | | |   +-Talaromyces marneffei
+| | | |   +-Talaromyces islandicus
+| | | |   \-Talaromyces stipitatus
+| | | \-Aspergillaceae
+| | |   +-Penicilliopsis
+| | |   | \-Penicilliopsis zonata
+| | |   +-Penicillium
+| | |   | +-Penicillium rubens
+| | |   | +-Penicillium antarcticum
+| | |   | +-Penicillium occitanis (nom. inval.)
+| | |   | +-Penicillium brasilianum
+| | |   | +-Penicillium oxalicum
+| | |   | +-Penicillium italicum
+| | |   | +-Penicillium digitatum
+| | |   | +-Penicillium expansum
+| | |   | +-Penicillium roqueforti
+| | |   | +-Penicillium chrysogenum
+| | |   | \-Penicillium camemberti
+| | |   \-Aspergillus
+| | |     +-Aspergillus fumigatus
+| | |     +-Aspergillus nidulans
+| | |     +-Aspergillus carbonarius
+| | |     +-Aspergillus fischeri
+| | |     +-Aspergillus terreus
+| | |     +-Aspergillus oryzae
+| | |     +-Aspergillus niger
+| | |     +-Aspergillus flavus
+| | |     +-Aspergillus clavatus
+| | |     \-Aspergillus aculeatus
+| | \-Onygenales
+| |   +-Polytolypa
+| |   | \-Polytolypa hystricis
+| |   +-Arthrodermataceae
+| |   | +-Microsporum
+| |   | | \-Microsporum canis
+| |   | +-Nannizzia
+| |   | | \-Nannizzia gypsea
+| |   | \-Trichophyton
+| |   |   +-Trichophyton interdigitale
+| |   |   +-Trichophyton verrucosum
+| |   |   +-Trichophyton benhamiae
+| |   |   +-Trichophyton tonsurans
+| |   |   \-Trichophyton rubrum
+| |   +-Onygenaceae
+| |   | \-Coccidioides
+| |   |   +-Coccidioides posadasii
+| |   |   \-Coccidioides immitis
+| |   \-Ajellomycetaceae
+| |     +-Paracoccidioides
+| |     | +-Paracoccidioides lutzii
+| |     | \-Paracoccidioides brasiliensis
+| |     +-Emergomyces
+| |     | +-Emergomyces pasteurianus
+| |     | \-[Emmonsia] crescens
+| |     +-Blastomyces
+| |     | +-Blastomyces gilchristii
+| |     | \-Blastomyces dermatitidis
+| |     \-Histoplasma
+| |       \-Histoplasma capsulatum
+| +-Dothideomycetes
+| | +-Mycosphaerellales
+| | | +-Teratosphaeriaceae
+| | | | +-Baudoinia
+| | | | | \-Baudoinia panamericana
+| | | | +-Acidomyces
+| | | | | \-Acidomyces sp. 'richmondensis'
+| | | | \-Hortaea
+| | | |   \-Hortaea werneckii
+| | | \-Mycosphaerellaceae
+| | |   +-Pseudocercospora
+| | |   | \-Pseudocercospora fijiensis
+| | |   +-Zymoseptoria
+| | |   | \-Zymoseptoria tritici
+| | |   +-Sphaerulina
+| | |   | \-Sphaerulina musiva
+| | |   \-Dothistroma
+| | |     \-Dothistroma septosporum
+| | +-Coniosporium
+| | | \-Coniosporium apollinis
+| | ++Myriangiales
+| | | \-Elsinoe australis
+| | ++Botryosphaeriales
+| | | \-Macrophomina phaseolina
+| | ++Dothideales
+| | | \-Aureobasidium
+| | |   +-Aureobasidium subglaciale
+| | |   \-Aureobasidium pullulans
+| | \-Pleosporales
+| |   ++Didymosphaeriaceae
+| |   | \-Paraphaeosphaeria sporulosa
+| |   ++Lindgomycetaceae
+| |   | \-Clohesyomyces aquaticus
+| |   ++Periconiaceae
+| |   | \-Periconia macrospinosa
+| |   ++Corynesporascaceae
+| |   | \-Corynespora cassiicola
+| |   ++Phaeosphaeriaceae
+| |   | \-Parastagonospora nodorum
+| |   ++Leptosphaeriaceae
+| |   | \-Plenodomus lingam
+| |   \-Pleosporaceae
+| |     +-Exserohilum
+| |     | \-Exserohilum turcicum
+| |     +-Pyrenophora
+| |     | +-Pyrenophora teres
+| |     | \-Pyrenophora tritici-repentis
+| |     +-Alternaria
+| |     | \-Alternaria alternata
+| |     \-Bipolaris
+| |       +-Bipolaris sorokiniana
+| |       \-Bipolaris maydis
+| +-Dipodascomycetes
+| | \-Dipodascales
+| |   ++Dipodascaceae
+| |   | \-Geotrichum candidum
+| |   +-Nadsonia
+| |   | \-Nadsonia fulvescens
+| |   +-Trichomonascaceae
+| |   | +-Blastobotrys
+| |   | | \-Blastobotrys adeninivorans
+| |   | +-Wickerhamiella
+| |   | | \-Wickerhamiella sorbophila
+| |   | \-Trichomonascus
+| |   |   \-Trichomonascus ciferrii
+| |   \-Yarrowia
+| |     \-Yarrowia lipolytica
+| +-Pichiomycetes
+| | +-Serinales
+| | | +-Babjeviella
+| | | | \-Babjeviella inositovora
+| | | +-Metschnikowiaceae
+| | | | +-Candidozyma
+| | | | | \-Candidozyma auris
+| | | | \-Sungouiella
+| | | |   \-Sungouiella intermedia
+| | | \-Debaryomycetaceae
+| | |   +-Yamadazyma
+| | |   | \-Yamadazyma tenuis
+| | |   +-Spathaspora
+| | |   | +-[Candida] subhashii
+| | |   | \-Spathaspora passalidarum
+| | |   +-Suhomyces
+| | |   | \-Suhomyces tanzawaensis
+| | |   +-Lodderomyces
+| | |   | \-Lodderomyces elongisporus
+| | |   +-Diutina
+| | |   | \-Diutina rugosa
+| | |   +-Candida
+| | |   | +-Candida dubliniensis
+| | |   | +-Candida parapsilosis
+| | |   | \-Candida albicans
+| | |   +-Debaryomyces
+| | |   | +-Debaryomyces fabryi
+| | |   | \-Debaryomyces hansenii
+| | |   +-Meyerozyma
+| | |   | \-Meyerozyma guilliermondii
+| | |   +-Scheffersomyces
+| | |   | \-Scheffersomyces stipitis
+| | |   \-Millerozyma
+| | |     \-Millerozyma farinosa
+| | \-Pichiales
+| |   \-Pichiaceae
+| |     +-Kuraishia
+| |     | \-Kuraishia capsulata
+| |     +-Ogataea
+| |     | +-Ogataea parapolymorpha
+| |     | +-Ogataea angusta
+| |     | +-Ogataea polymorpha
+| |     | \-[Candida] arabinofermentans
+| |     +-Brettanomyces
+| |     | \-Brettanomyces bruxellensis
+| |     +-Komagataella
+| |     | +-Komagataella phaffii
+| |     | \-Komagataella pastoris
+| |     \-Pichia
+| |       +-Pichia inconspicua
+| |       +-Pichia membranifaciens
+| |       \-Pichia kudriavzevii
+| +-Saccharomycetes
+| | ++Ascoideales
+| | | \-Ascoidea rubescens
+| | ++Saccharomycodales
+| | | \-Hanseniaspora
+| | |   +-Hanseniaspora guilliermondii
+| | |   \-Hanseniaspora valbyensis
+| | +-Saccharomycetales
+| | | \-Saccharomycetaceae
+| | |   +-Henningerozyma
+| | |   | \-Henningerozyma blattae
+| | |   +-Huiozyma
+| | |   | \-Huiozyma naganishii
+| | |   +-Kazachstania
+| | |   | \-Kazachstania africana
+| | |   +-Tetrapisispora
+| | |   | \-Tetrapisispora phaffii
+| | |   +-Oligophagozyma
+| | |   | \-Oligophagozyma castellii
+| | |   +-Vanderwaltozyma
+| | |   | \-Vanderwaltozyma polyspora
+| | |   +-Eremothecium
+| | |   | +-[Ashbya] aceris (nom. inval.)
+| | |   | +-Eremothecium cymbalariae
+| | |   | \-Eremothecium gossypii
+| | |   +-Naumovozyma
+| | |   | +-Naumovozyma dairenensis
+| | |   | \-Naumovozyma castellii
+| | |   +-Nakaseomyces
+| | |   | +-Nakaseomyces nivariensis
+| | |   | +-Nakaseomyces bracarensis
+| | |   | +-Nakaseomyces delphensis
+| | |   | \-Nakaseomyces glabratus
+| | |   +-Zygosaccharomyces
+| | |   | +-Zygosaccharomyces rouxii
+| | |   | \-Zygosaccharomyces bailii
+| | |   +-Torulaspora
+| | |   | \-Torulaspora delbrueckii
+| | |   +-Lachancea
+| | |   | +-Lachancea lanzarotensis
+| | |   | +-Lachancea dasiensis
+| | |   | +-Lachancea thermotolerans
+| | |   | \-Lachancea kluyveri
+| | |   +-Saccharomyces
+| | |   | +-Saccharomyces arboricola
+| | |   | +-Saccharomyces mikatae
+| | |   | +-Saccharomyces paradoxus
+| | |   | +-Saccharomyces cerevisiae
+| | |   | \-Saccharomyces bayanus
+| | |   \-Kluyveromyces
+| | |     +-Kluyveromyces lactis
+| | |     \-Kluyveromyces marxianus
+| | \-Phaffomycetales
+| |   ++Wickerhamomycetaceae
+| |   | \-Wickerhamomyces ciferrii
+| |   \-Phaffomycetaceae
+| |     \-Cyberlindnera
+| |       +-Cyberlindnera fabianii
+| |       \-Cyberlindnera jadinii
+| \+Schizosaccharomycetes
+|   \-Schizosaccharomyces
+|     +-Schizosaccharomyces octosporus
+|     +-Schizosaccharomyces japonicus
+|     \-Schizosaccharomyces pombe
+\+Mucoromycota
+  \-Mucorales
+    ++Rhizopodaceae
+    | \-Rhizopus arrhizus
+    \+Phycomycetaceae
+      \-Phycomyces blakesleeanus
+-----------------------------------
+Viridiplantae
+++Streptophyta
+| \-Arabidopsis thaliana
+\+Chlorophyta
+  \-Chlamydomonas reinhardtii
+-----------------------------------
