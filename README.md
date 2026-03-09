@@ -2,7 +2,7 @@
 
 # Repo for the analysis of Fks hotspots DMS
 
-Welcome to the new-and-improved companion repo for [this manuscript](https://www.biorxiv.org/content/10.1101/2024.07.21.604487).
+Welcome to the new-and-improved companion repo for [this article](https://www.doi.org/10.1093/genetics/iyag055).
 
 It is essentially divided in two sections: `pre/`, which corresponds to preliminary steps and analyses and `post/`, which corresponds to downstream analysis of selection coefficients obtained using gyōza (as well as analysis of experiments performed after the DMS).
 
@@ -10,7 +10,7 @@ It is essentially divided in two sections: `pre/`, which corresponds to prelimin
 
 ### Homologous hotspot sequences
 
-A multiple sequence alignment was built from Fks homologous sequences retrieved using [MetaPhOrs](https://orthology.phylomedb.org/). We first kept ["Fks1" hits](./pre/ortholog_data/FKS1_filtered.aln) separate from ["Fks2" hits](./pre/ortholog_data/FKS2_filtered.aln) in order to extract the hotspot sequences which were used to generate the oPools. Taxonomic data were obtained by using's [NCBI's CommonTree](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi) with [the full list of strains](./pre/ortholog_data/allspecies.txt) for which there was at least one Fks hit. [This custom R script](./pre/scripts/generate_S3_data.R) was then used to generate [Supplementary Table 3](./pre/ortholog_data/S3_data.csv). Ultimately all hits were pooled to generate a single multiple sequence alignment from which we generated the phylogenetic tree in Supplementary Figure 3A.
+A multiple sequence alignment was built from Fks homologous sequences retrieved using [MetaPhOrs](https://orthology.phylomedb.org/). We first kept ["Fks1" hits](./pre/ortholog_data/FKS1_filtered.aln) separate from ["Fks2" hits](./pre/ortholog_data/FKS2_filtered.aln) in order to extract the hotspot sequences which were used to generate the oPools. Taxonomic data were obtained by using's [NCBI's CommonTree](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi) with [the full list of strains](./pre/ortholog_data/allspecies.txt) for which there was at least one Fks hit. [This custom R script](./pre/scripts/generate_S3_data.R) was then used to generate [Supplementary Table 3](./pre/ortholog_data/S3_data.csv). Ultimately all hits were pooled to generate a single multiple sequence alignment from which we generated the phylogenetic tree in Supplementary Figure 3a.
 
 [This short script](./pre/scripts/EL4.py) was used to measure conservation of the EL4 flexible loop Fks homologs.
 
@@ -46,6 +46,10 @@ The following steps need to be run in a Python 3.13 virtual environment. With `u
 uv venv fks_gyoza --python 3.13
 source fks_gyoza/bin/activate
 uv pip install -r post/requirements.txt
+```
+Use this command line to export the kernelspecs:
+```
+python -m ipykernel install --user --name=fks_gyoza
 ```
 
 ## Analysis
@@ -91,24 +95,24 @@ A second validation experiment was performed with more mutants, this time outsid
 
 Main figures:
 - Figure 1: MD simulations, figures generated in PyMOL
-- Figure 2A: Structural alignment, figure generated in ChimeraX
-- Figure 2B: Experimental design, figure created with BioRender
-- Figure 2C-H: Distributions of mutational effects and UpsetPlots of classified data, figures generated with [this template notebook](./post/notebooks/plot_classified_data.ipynb)
-- Figure 3A-L: Heatmaps of mutational effects for Fks1, figures generated with [this template notebook](./post/notebooks/heatmaps.ipynb)
-- Figure 3M-P: Mutational effects mapped onto the structure of Fks1 using attribute files generated with [this template notebook](./post/notebooks/defattr.ipynb) and ChimeraX
+- Figure 2a: Structural alignment, figure generated in ChimeraX
+- Figure 2b: Experimental design, figure created with BioRender
+- Figure 2c-h: Distributions of mutational effects and UpsetPlots of classified data, figures generated with [this template notebook](./post/notebooks/plot_classified_data.ipynb)
+- Figure 3a-l: Heatmaps of mutational effects for Fks1, figures generated with [this template notebook](./post/notebooks/heatmaps.ipynb)
+- Figure 3m-p: Mutational effects mapped onto the structure of Fks1 using attribute files generated with [this template notebook](./post/notebooks/defattr.ipynb) and ChimeraX
 
 Supplementary figures:
 - Supplementary Figure 1: MD simulations, figures generated in PyMOL
 - Supplementary Figure 2: MD validations with growth data from reconstructed mutants analyzed with [this notebook](./post/notebooks/20250210_more_mutants.ipynb)
-- Supplementary Figure 3A: Phylogenetic tree (see [corresponding section](#homologous-hotspot-sequences))
-- Supplementary Figure 3B: Structural alignment, figure generated in ChimeraX
+- Supplementary Figure 3a: Phylogenetic tree (see [corresponding section](#homologous-hotspot-sequences))
+- Supplementary Figure 3b: Structural alignment, figure generated in ChimeraX
 - Supplementary Figure 4: DMS growth data analyzed with [this notebook](./pre/notebooks/dms_cultures.ipynb)
 - Supplementary Figure 5: Allele frequencies at T0, plotted with [this notebook](./post/notebooks/bottlenecks.ipynb)
 - Supplementary Figure 6: Replicability, plotted with [this script](./post/scripts/plot_replicates.py)
 - Supplementary Figure 7: Gaussian mixture model trained with [this template notebook](./post/notebooks/train_GMM.ipynb)
 - Supplementary Figure 8: DMS validations with growth data from reconstructed mutants analyzed with [this notebook](./post/notebooks/20240129_validations_test3.ipynb)
-- Supplementary Figure 9A-J: Heatmaps of mutational effects for Fks2, figures generated with [this template notebook](./post/notebooks/heatmaps.ipynb)
-- Supplementary Figure 9K-O: Mutational effects mapped onto the structure of Fks1 using attribute files generated with [this template notebook](./post/notebooks/defattr.ipynb) and ChimeraX
+- Supplementary Figure 9a-j: Heatmaps of mutational effects for Fks2, figures generated with [this template notebook](./post/notebooks/heatmaps.ipynb)
+- Supplementary Figure 9k-o: Mutational effects mapped onto the structure of Fks1 using attribute files generated with [this template notebook](./post/notebooks/defattr.ipynb) and ChimeraX
 - Supplementary Figure 10: Effect of paralog repression, plotted with [this script](./post/scripts/BYvR11.py)
 - Supplementary Figure 11: Logos of homologous hotspot sequences, generated with [this notebook](./post/notebooks/orthologs.ipynb)
 - Supplementary Figure 12: Dose-response curves generated with [this notebook](./pre/notebooks/dose_response.ipynb)
@@ -118,4 +122,4 @@ Supplementary tables:
 - Supplementary Table 3: List of homologous hotspots generated using [this R script](./pre/scripts/generate_S3_data.R)
 - Supplementary Table 4: Table of strains, plasmids and primers, mainly generated by hand. Also includes oPools generated with [this notebook](./pre/notebooks/generate_oPools.ipynb)
 
-Final figures were assembled and finalized in Inkscape.
+Final figures were assembled and finalized in [Inkscape](https://inkscape.org/).
